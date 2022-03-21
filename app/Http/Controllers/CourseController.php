@@ -6,6 +6,7 @@ use App\Models\CourseCategory;
 use App\Models\courses;
 use App\Models\User;
 use App\Models\UserReview;
+use Facade\FlareClient\View;
 use Illuminate\Http\Request;
 
 class CourseController extends Controller
@@ -32,19 +33,21 @@ class CourseController extends Controller
 
     public function course($course)
     {
-        $all_course_categories = CourseCategory::get();
-        $course_category = CourseCategory::with('enrolleds')->where('slug',$course)->first();
-        $courses = courses::with('highlights')->with('accrediteds')->where('course_category_id',$course_category->id)->get();
-        return view('courses.selectedCoures',compact('course_category','all_course_categories','courses'));
+        return view("courses.$course.index");
+        // $all_course_categories = CourseCategory::get();
+        // $course_category = CourseCategory::with('enrolleds')->where('slug',$course)->first();
+        // $courses = courses::with('highlights')->with('accrediteds')->where('course_category_id',$course_category->id)->get();
+        // return view('courses.selectedCoures',compact('course_category','all_course_categories','courses'));
     }
 
     public function subCourse($course,$subcourse){
-        $courses = CourseCategory::where('slug',$course)->with('courses' ,function($q) use ($subcourse){
-            $q->where('slug',$subcourse )->first();
-        })->first();
-        $subcourses = courses::where('slug',$subcourse)->first();
-        $user_review = UserReview::orderBy('rating','DESC')->get();
-        return view('courses.subCourses',compact('courses','subcourses','user_review'));
+        return view("courses.$course.$subcourse");
+        // $courses = CourseCategory::where('slug',$course)->with('courses' ,function($q) use ($subcourse){
+        //     $q->where('slug',$subcourse )->first();
+        // })->first();
+        // $subcourses = courses::where('slug',$subcourse)->first();
+        // $user_review = UserReview::orderBy('rating','DESC')->get();
+        // return view('courses.subCourses',compact('courses','subcourses','user_review'));
     }
 
     public function bootcampCourse(){

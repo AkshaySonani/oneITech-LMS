@@ -57,6 +57,7 @@
         z-index: 9999;
         width: 100%;
       }</style>
+    @yield('css')
     <link href="{{ asset('assets/css_3_0/minified/08082021011458_home.min.css') }}" rel="stylesheet" type="text/css">
 </head>
 
