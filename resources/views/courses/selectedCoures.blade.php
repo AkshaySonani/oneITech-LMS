@@ -1,33 +1,41 @@
 @extends('layouts.index')
-
+@section('css')
+    <link rel="stylesheet" href="{{ asset('assets/css_3_0/minified/selected-courese.css') }}">
+@endsection
 @section('content')
-<link rel="stylesheet" href="{{ asset('assets/css_3_0/minified/selected-courese.css') }}">
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <section
-        style="background-image: url('https://cdn-cllme.nitrocdn.com/fsJtPHuAIrjqkSrOmOGUpPSluVVKYWgR/assets/static/optimized/rev-ec0d385/categories/share_images/ea20ec2c-f1e7-4384-84da-afc8bb11545d.jpg');"
-        class="course-category-banner nitro-lazy"
-        nitro-lazy-bg="https://cdn-cllme.nitrocdn.com/fsJtPHuAIrjqkSrOmOGUpPSluVVKYWgR/assets/static/optimized/rev-7401afd/categories/share_images/ea20ec2c-f1e7-4384-84da-afc8bb11545d.jpg">
+        style='background-image:url({{asset('images/selected.jpg')}});'
+        class="course-category-banner nitro-lazy">
         <div class="banner-overlay"></div>
         <div class="container-fluid">
-            <ul class="breadcrumb clearfix" itemscope="" itemtype="http://schema.org/BreadcrumbList">
-                <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-                    <a href="index.htm" itemprop="item"><span itemprop="name">Home</span></a>
-                    <meta itemprop="position" content="1">
+            <ul class="breadcrumb clearfix" itemscope itemtype="http://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a href="{{route('home')}}" itemprop="item"><span itemprop="name">Home</span></a>
+                    <meta itemprop="position" content="1" />
                 </li>
-                <li class="active"> <span itemprop="name">{{ $course_category->name }}</span> </li>
+                <li class="active" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <span itemprop="name">{{ $course_category->name }}</span>
+                    <meta itemprop="position" content="{{ $course_category->id }}" />
+                </li>
             </ul>
             <h1>{{ $course_category->name }}</h1>
             <p> {{ $course_category->description }}</p>
             <ul class="course-category-list clearfix">
                 <li>
                     <div class="media">
-                        <div class="media-left"></div>
+                        <div class="media-left">
+                            <img alt="enrolled" class="d-none d-sm-block nitro-lazy" src="{{asset('images/enrolled.png')}}"/>
+                            <img alt="enrolled" class="d-block d-sm-none nitro-lazy" src="{{asset('images/enrolled.png')}}"/>
+                        </div>
                         <div class="media-body"> {{ $course_category->enrolleds->count() }} Students Enrolled </div>
                     </div>
                 </li>
                 <li>
                     <div class="media">
-                        <div class="media-left"></div>
+                        <div class="media-left">
+                            <img alt="courses" class="d-none d-sm-block nitro-lazy" src="{{asset('images/courses.png')}}"/>
+                            <img alt="courses" class="d-block d-sm-none nitro-lazy" src="{{asset('images/courses.png')}}"/>
+                        </div>
                         <div class="media-body"> {{ $courses->count() }} Courses </div>
                     </div>
                 </li>

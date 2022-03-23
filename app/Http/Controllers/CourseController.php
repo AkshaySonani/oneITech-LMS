@@ -2,11 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Course;
 use App\Models\CourseCategory;
-use App\Models\courses;
-use App\Models\User;
-use App\Models\UserReview;
-use Facade\FlareClient\View;
 use Illuminate\Http\Request;
 
 class CourseController extends Controller
@@ -33,11 +30,11 @@ class CourseController extends Controller
 
     public function course($course)
     {
-        return view("courses.$course.index");
-        // $all_course_categories = CourseCategory::get();
-        // $course_category = CourseCategory::with('enrolleds')->where('slug',$course)->first();
-        // $courses = courses::with('highlights')->with('accrediteds')->where('course_category_id',$course_category->id)->get();
-        // return view('courses.selectedCoures',compact('course_category','all_course_categories','courses'));
+        // return view("courses.$course.index");
+        $all_course_categories = CourseCategory::get();
+        $course_category = CourseCategory::with('enrolleds')->where('slug',$course)->first();
+        $courses = Course::with('highlights')->with('accrediteds')->where('course_category_id',$course_category->id)->get();
+        return view('courses.selectedCoures',compact('course_category','all_course_categories','courses'));
     }
 
     public function subCourse($course,$subcourse){
@@ -52,7 +49,7 @@ class CourseController extends Controller
 
     public function bootcampCourse(){
         $course_categories = CourseCategory::with('courses')->get();
-        $popular_courses = courses::where('is_popular',true)->get();
+        $popular_courses = Course::where('is_popular',true)->get();
         return view('courses.bootcamp-courses',compact('course_categories','popular_courses'));
     }
     /**

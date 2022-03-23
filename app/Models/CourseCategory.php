@@ -12,11 +12,6 @@ class CourseCategory extends Model
 
     public function courses()
     {
-        return $this->hasMany('App\Models\courses','course_category_id','id');
-    }
-
-    public function enrolleds()
-    {
-        return $this->hasMany('App\Models\CourseEnrolled','course_category_id','id');
+        return $this->hasMany('App\Models\Course','course_category_id','id');
     }
 }
