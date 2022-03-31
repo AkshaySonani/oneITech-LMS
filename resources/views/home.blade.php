@@ -351,10 +351,12 @@
                                         <a class="nav-link category-list active" data-toggle="tab" href="#0"
                                             data-value="0" data-text="Popular Courses">Popular Courses</a>
                                     </li>
-                                    @foreach ($course_categories as $course_category)
-                                        <li class="nav-item trending-course-category">
-                                            <a class="nav-link category-list" href="{{route('courses.course',['course'=>$course_category->slug])}}">{{ $course_category->name }}</a>
-                                        </li>
+                                    @foreach ($course_categories as $key => $course_category)
+                                        @if ($key <= 4)
+                                            <li class="nav-item trending-course-category">
+                                                <a class="nav-link category-list" href="{{route('courses.course',['course'=>$course_category->slug])}}">{{ $course_category->name }}</a>
+                                            </li>
+                                        @endif
                                     @endforeach
                                 </ul>
                             </div>
@@ -390,8 +392,9 @@
                                                     @endif
                                                     <div class="course-name"> {{ $course->name }} </div>
                                                     <ul class="course-content">
-                                                        <li>{{ $course->highlights->highlight_1 }}</li>
-                                                        <li>{{ $course->highlights->highlight_2 }}</li>
+                                                        @foreach ($course->highlights as $highlight)
+                                                            <li>{{ $highlight->name }}</li>
+                                                        @endforeach
                                                     </ul>
                                                     <ul class="accrd-bodies clearfix">
                                                         {{-- <li><i class="icons-course course-769 nitro-lazy"></i></li>

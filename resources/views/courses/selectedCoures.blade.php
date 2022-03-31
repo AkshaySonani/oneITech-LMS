@@ -27,7 +27,15 @@
                             <img alt="enrolled" class="d-none d-sm-block nitro-lazy" src="{{asset('images/enrolled.png')}}"/>
                             <img alt="enrolled" class="d-block d-sm-none nitro-lazy" src="{{asset('images/enrolled.png')}}"/>
                         </div>
-                        <div class="media-body"> {{ $course_category->enrolleds->count() }} Students Enrolled </div>
+                        @php
+                            $enrolleds = 0;
+                        @endphp
+                        @foreach ($course_category->courses as $co)
+                            @php
+                                $enrolleds += $co->enrolleds->count();
+                            @endphp
+                        @endforeach
+                        <div class="media-body"> {{ $enrolleds}} Students Enrolled </div>
                     </div>
                 </li>
                 <li>
@@ -36,7 +44,7 @@
                             <img alt="courses" class="d-none d-sm-block nitro-lazy" src="{{asset('images/courses.png')}}"/>
                             <img alt="courses" class="d-block d-sm-none nitro-lazy" src="{{asset('images/courses.png')}}"/>
                         </div>
-                        <div class="media-body"> {{ $courses->count() }} Courses </div>
+                        <div class="media-body"> {{ $course_category->courses->count() }} Courses </div>
                     </div>
                 </li>
             </ul>
@@ -53,7 +61,7 @@
             <h2>Top {{ $course_category->name }} Courses</h2>
             <div class="courses-datascience-main popular-courses-summary">
                 <div class="row">
-                    @foreach ($courses as $course)
+                    @foreach ($course_category->courses as $course)
                         <div class="col-xl-3 col-lg-4 col-md-6">
                             <div class="course-thumb-summary">
                                 <div class="course-thumb">
@@ -64,8 +72,9 @@
                                     @endif
                                     <div class="course-name"> {{ $course->name }} </div>
                                     <ul class="course-content">
-                                        <li>{{ $course->highlights->highlight_1 }}</li>
-                                        <li>{{ $course->highlights->highlight_2 }}</li>
+                                        @foreach ($course->highlights as $highlight)
+                                            <li>{{ $highlight->name }}</li>
+                                        @endforeach
                                     </ul>
                                     <ul class="accrd-bodies clearfix">
                                         {{-- <li><i class="icons-course course-769 nitro-lazy"></i></li>

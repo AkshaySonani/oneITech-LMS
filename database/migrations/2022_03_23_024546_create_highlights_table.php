@@ -15,9 +15,11 @@ class CreateHighlightsTable extends Migration
     {
         Schema::create('highlights', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('course_id')->comment('coures');
             $table->string('name');
-            $table->string('path');
             $table->timestamps();
+
+            $table->foreign('course_id')->references('id')->on('courses')->onDelete('cascade');
         });
     }
 

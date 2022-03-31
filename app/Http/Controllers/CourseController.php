@@ -23,7 +23,7 @@ class CourseController extends Controller
     public function index()
     {
         //
-        $course_categories = CourseCategory::with('courses')->get();
+        $course_categories = CourseCategory::with(['courses'=>function($q){$q->limit(8);}])->get();
         // $courses = courses::with('highlights')->with('accrediteds')->where('course_category_id',$course_categories->id)->get();
         return view('courses.courses',compact('course_categories'));
     }
@@ -32,9 +32,9 @@ class CourseController extends Controller
     {
         // return view("courses.$course.index");
         $all_course_categories = CourseCategory::get();
-        $course_category = CourseCategory::with('enrolleds')->where('slug',$course)->first();
-        $courses = Course::with('highlights')->with('accrediteds')->where('course_category_id',$course_category->id)->get();
-        return view('courses.selectedCoures',compact('course_category','all_course_categories','courses'));
+        $course_category = CourseCategory::where('slug',$course)->first();
+        // $courses = Course::with('highlights')->with('accrediteds')->where('course_category_id',$course_category->id)->get();
+        return view('courses.selectedCoures',compact('course_category','all_course_categories'));
     }
 
     public function subCourse($course,$subcourse){

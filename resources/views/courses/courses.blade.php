@@ -40,7 +40,9 @@
     @foreach ($course_categories as $course_category)
         <div class="container-fluid">
             <div class="category-list-heading clearfix popular-courses-summary">
-                <h2>{{ $course_category->name }} <span class="categ-num">({{$course_category->courses->count()}})</span></h2>
+                <h2>{{ $course_category->name }}
+                    {{-- <span class="categ-num">({{$course_category->courses->count()}})</span> --}}
+                </h2>
                 <div class="see-all">
                     <a class="btn d-none d-md-block" href="{{ route('courses.course',['course'=>$course_category->slug]) }}">See all Courses
                         <span class="right-arrow">
@@ -64,8 +66,9 @@
                                     @endif
                                     <div class="course-name"> {{$course->name}} </div>
                                     <ul class="course-content">
-                                        <li>{{$course->highlights->highlight_1}}</li>
-                                        <li>{{$course->highlights->highlight_2}}</li>
+                                        @foreach ($course->highlights as $highlight)
+                                            <li>{{ $highlight->name }}</li>
+                                        @endforeach
                                     </ul>
                                     <ul class="accrd-bodies clearfix">
                                         {{-- <li><i class="icons-course course-769 nitro-lazy"></i></li>
@@ -87,56 +90,14 @@
                     @endforeach
                 </div>
             </div>
-            <div class="load-more-agile-management text-center load-more mb-2">
+            <hr>
+            {{-- <div class="load-more-agile-management text-center load-more mb-2">
                 <a class="btn view-more-courses loader" data-loader-text="Loading..." data-offset="1" data-category-id="1" data-category="agile-management" href="javascript:void(0)">
                 Load More
                 </a>
-            </div>
+            </div> --}}
         </div>
     @endforeach
     </div>
 </section>
-{{-- <section class="useful-links">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="sortby-categories">
-                    <h2 class="section-heading">useful links</h2>
-                    <ul class="clearfix">
-                        <li>
-                            <a href="https://www.knowledgehut.com/programming/python-programming-certification-training-frankfurt ">Python Programming Certification  certification online in  Frankfurt </a>
-                        </li>
-                        <li>
-                            <a href="https://www.knowledgehut.com/blog/cloud-computing/how-to-save-up-to-40-on-azure-bill-without-buying-any-cost-management-software">azure cost optimization</a>
-                        </li>
-                        <li>
-                            <a href="https://www.knowledgehut.com/devops/devops-training-ahmedabad ">Devops  course online in  Ahmedabad </a>
-                        </li>
-                        <li>
-                            <a href="https://www.knowledgehut.com/mobile-app-development/ios-development-training-edmonton ">Ios Development  training in  Edmonton </a>
-                        </li>
-                        <li>
-                            <a href="https://www.knowledgehut.com/agile-management/less-framework-for-large-scale-product-development-training-montreal">Less Framework For Large Scale Product Development certification online in Montreal</a>
-                        </li>
-                        <li>
-                            <a href="https://www.knowledgehut.com/agile-management/csd-certification-training-richmond">CSD (Certified Scrum Developer) classes in Richmond</a>
-                        </li>
-                        <li>
-                            <a href="https://www.knowledgehut.com/agile-management/lean-kanban-non-it-professional">Lean Kanban for non IT Professional training</a>
-                        </li>
-                        <li>
-                            <a href="https://www.knowledgehut.com/agile-management/leading-safe-certification-training-geneva">Leading Safe certification online in Geneva</a>
-                        </li>
-                        <li>
-                            <a href="https://www.knowledgehut.com/devops/chef-training-hamilton ">Chef  classes in  Hamilton </a>
-                        </li>
-                        <li>
-                            <a href="https://www.knowledgehut.com/agile-management/safe-product-manager-product-owner-training-auckland">SAFe Product Manager Product Owner (SPMPO) training in Auckland</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
 @endsection
