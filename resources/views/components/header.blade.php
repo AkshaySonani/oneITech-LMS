@@ -82,7 +82,7 @@
                 </div>
                 <ul class="submenu-main customized-scrollbar">
                     @php
-                        $course_categories =  App\Models\CourseCategory::with(['courses'=>function($q){$q->limit(11);}])->get()
+                        $course_categories =  App\Models\CourseCategory::get();
                     @endphp
                     @foreach ($course_categories as $key => $course_category)
                         <li class="@if($key == 0) active @endif"> <a href="{{route('courses.course',['course'=>$course_category->slug])}}">{{$course_category->name}}</a>
@@ -125,7 +125,7 @@
                     <ul class="collapse panel-collapse category-list" id="course-dropdown"
                         aria-labelledby="navbarDropdown9" data-parent="#accordionone" role="tabpanel">
                         @php
-                            $course_categories =  App\Models\CourseCategory::with(['courses'=>function($q){$q->limit(11);}])->get()
+                            $course_categories =  App\Models\CourseCategory::get();
                         @endphp
                         @foreach ($course_categories as $key => $course_category)
                             <li class="category-link" id="category-{{$key}}">
