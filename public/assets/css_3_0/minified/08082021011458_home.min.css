@@ -16385,7 +16385,7 @@ button.swiper-pagination-bullet {
 
 .sub-menu.hidden,
 .view-trending.hidden {
-    display: none !important
+    
 }
 
 .menu-dropdown .sub-menu ul>li.more-courses {
@@ -18735,9 +18735,7 @@ footer .readmore-footer .addReadMoreWrapTxt.showmorecontent .SecSec,
     text-transform: none !important
 }
 
-.hide {
-    display: none !important
-}
+
 
 .fixed-right-bottom {
     position: fixed;
