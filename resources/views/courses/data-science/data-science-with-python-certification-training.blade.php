@@ -275,22 +275,6 @@
             </div>
         </div>
     </section>
-    <section class="when" id="when-1">
-        <div class="container-fluid">
-            <h2 class="section-heading schedule-section hide">Data Science with Python Course Schedules</h2>
-            <div class="money-back schedule-section hide"> <span class="money-back-content"> 100% Money Back Guarantee </span> <a class="money-back-popover" href="javascript:void(0);" data-toggle="popover" data-get="#refund-policy-modal-data-science-with-python-certification-training" data-trigger="focus" data-placement="bottom" data-container="body" data-original-title="" title=""> <i class="layout-icons icon-info"></i> </a> </div>
-            <div class="global-tabs load-schedules-tabs"></div>
-            <div class="tab-content schedules-tab-content-div">
-                <div class="load-schedules-content"> </div>
-            </div>
-            <div class="course-call-back d-block d-sm-none view-all-schedules hide"> <a rel="nofollow" href="#" class="btn btn-black loader">View All Schedules <span class="right-arrow"> <i class="layout-icons right-arrow-icon"></i> </span> </a> </div>
-            <div class="global-card media request-a-batch-div schedule-section hide">
-                <div class="media-body align-self-center">
-                    <p> Can't find the batch you're looking for? </p>
-                </div> <a class="btn btn-success align-self-center" href="javasript:void(0);" data-toggle="modal" data-target="#request-batch-modal" data-form-identity-code="REQUEST_A_BATCH" data-form-identity-name="Request a batch"> Request a Batch </a>
-            </div>
-        </div>
-    </section>
     <section class="course-concepts nitro-offscreen" id="concept-1">
         <div class="container-fluid">
             <div class="d-none d-sm-block">
@@ -2058,7 +2042,7 @@
                         <img src="https://d2o2utebsixu4k.cloudfront.net/assets/images/onboard-mail.png"/>
                     </div>
                     <h4>
-                        Congratulations! Experience Immersive Learning for Free.                        
+                        Congratulations! Experience Immersive Learning for Free.
                     </h4>
                     <p>You’ve successfully unlocked your free 14-day access to .</p>
                 </div>
@@ -2080,16 +2064,16 @@
                 <div class="steps">
                     <h5>Already have an account on PRISM? Just log in and skill up!</h5>
                     <ul>
-                        <li>Click on the Sign in button on 
+                        <li>Click on the Sign in button on
                             <a href="https://www.knowledgehut.com/">www.knowledgehut.com</a>
-                        </li>                                           
+                        </li>
                         <li>Sign in using your credentials and access Dashboard</li>
                         <li>Click on  from Dashboard and access the course</li>
                     </ul>
                 </div>
             </div>
             <div class="help-line">
-                <p>Didn’t receive any mail? Reach us on <a href="mailto:support@oneitech.com">support@oneitech.com</a></p>                                      
+                <p>Didn’t receive any mail? Reach us on <a href="mailto:support@oneitech.com">support@oneitech.com</a></p>
             </div>
         </div>
     </div>

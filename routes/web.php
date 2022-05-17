@@ -23,6 +23,7 @@ Route::prefix('courses')->group(function () {
     Route::get('/',[CourseController::class,'index'])->name('courses');
     Route::get('/{course}',[CourseController::class,'course'])->name('courses.course');
     Route::get('/{course}/{subcourse}',[CourseController::class,'subCourse'])->name('courses.course.subcourse');
+    Route::get('/{course}/{subcourse}/schedule',[CourseController::class,'courseSchedule'])->name('course.schedule');
     Route::get('/popular/{subcourse}',[CourseController::class,'subCourse'])->name('courses.popular.subcourse');
 });
 Route::get('course/bootcamp',[CourseController::class,'bootcampCourse'])->name('courses.bootcamp_courses');

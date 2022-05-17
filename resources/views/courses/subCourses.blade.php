@@ -315,23 +315,6 @@
                </div>
             </div>
          </section>
-         <section class="when" id="when">
-            <div class="container-fluid">
-               <h2 class="section-heading schedule-section hide">CAL-I Course Schedule</h2>
-               <div class="global-tabs load-schedules-tabs"></div>
-               <div class="tab-content schedules-tab-content-div">
-                  <div class="load-schedules-content"> </div>
-               </div>
-               <div class="course-call-back d-block d-sm-none view-all-schedules hide"> <a rel="nofollow" href="https://www.knowledgehut.com/agile-management/certified-agile-leadership-cal-1-training/schedule" class="btn btn-black loader">View All Schedules <span class="right-arrow"> <i class="common-icons right-arrow-icon nitro-lazy"></i> </span> </a> </div>
-               <div class="global-card media request-a-batch-div schedule-section hide">
-                  <i class="align-self-center common-icons icon-ques-big nitro-lazy"></i>
-                  <div class="media-body align-self-center">
-                     <p> Can't find the batch you're looking for? </p>
-                  </div>
-                  <a class="btn btn-default align-self-center" href="javasript:void(0);" data-toggle="modal" data-target="#request-batch-modal"> Request a Batch </a>
-               </div>
-            </div>
-         </section>
          <section class="course-concepts " id="concept-1">
             <div class="container-fluid">
                <div class="d-none d-sm-block">

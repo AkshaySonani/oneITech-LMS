@@ -42,8 +42,10 @@
                 </ul>
                 <div class="visible-xs brand-img"> <img height="82" width="198" nitro-lazy-src="https://cdn-cllme.nitrocdn.com/fsJtPHuAIrjqkSrOmOGUpPSluVVKYWgR/assets/static/optimized/rev-f20475c/assets/images/course-icons/csm-certification-training-5.png" class="nitro-lazy" nitro-lazy-empty="" id="MTMwNzoxNzY=-1" src="data:image/svg+xml;nitro-empty-id=MTMwNzoxNzY=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTk4IDgyIiB3aWR0aD0iMTk4IiBoZWlnaHQ9IjgyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==">
                 </div>
-                <div class="schedule-btn"> <a href="agile-management/csm-certification-training/schedule" class="btn btn-success change-schedule-uri hidden-xs hidden-sm loader" rel="nofollow" data-text="View Schedules">View Schedules</a> <a href="agile-management/csm-certification-training/schedule" class="btn btn-success change-schedule-uri visible-xs visible-sm loader" rel="nofollow" data-text="Loading...">View Schedules</a> <a href="javascript:void(0)" class="btn btn-default" data-toggle="modal" data-target="#course-advisor-modal"> Contact
-                        Course Advisor </a> </div>
+                <div class="schedule-btn">
+                    <a href="{{route('course.schedule',['course' => 'agile-management','subcourse' => 'csm-certification-training'])}}" class="btn btn-success change-schedule-uri hidden-xs hidden-sm loader" rel="nofollow" data-text="View Schedules">View Schedules</a>
+                    <a href="javascript:void(0)" class="btn btn-default" data-toggle="modal" data-target="#course-advisor-modal"> Contact Course Advisor </a>
+                </div>
                 <ul class="social-numbers list-inline clearfix hidden-xs"> <img height="82" width="198" id="MTMxNjoxODQ=-1" src="{{asset('images/2.png')}}">
                     <li> <i class="fa fa-google"></i> 4.8/5 </li>
                     <li> <i class="fa fa-facebook"></i> 4.5/5 </li>

@@ -52,6 +52,13 @@ class CourseController extends Controller
         $popular_courses = Course::where('is_popular',true)->get();
         return view('courses.bootcamp-courses',compact('course_categories','popular_courses'));
     }
+
+
+    public function courseSchedule(){
+        return view('courses.schedule');
+    }
+
+
     /**
      * Show the form for creating a new resource.
      *
