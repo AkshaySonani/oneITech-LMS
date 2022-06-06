@@ -54,8 +54,12 @@ class CourseController extends Controller
     }
 
 
-    public function courseSchedule(){
-        return view('courses.schedule');
+    public function courseSchedule(Request $request){
+        $url = $request->url();
+        $url_pra = explode("/",$url);
+        $course = CourseCategory::where('slug',$url_pra[4])->first();
+        $subcourse = Course::where('slug',$url_pra[5])->first();
+        return view('courses.schedule',compact('course','subcourse'));
     }
 
 

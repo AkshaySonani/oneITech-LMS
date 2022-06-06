@@ -43,7 +43,7 @@
                 <div class="visible-xs brand-img"> <img height="82" width="198" nitro-lazy-src="https://cdn-cllme.nitrocdn.com/fsJtPHuAIrjqkSrOmOGUpPSluVVKYWgR/assets/static/optimized/rev-f20475c/assets/images/course-icons/csm-certification-training-5.png" class="nitro-lazy" nitro-lazy-empty="" id="MTMwNzoxNzY=-1" src="data:image/svg+xml;nitro-empty-id=MTMwNzoxNzY=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTk4IDgyIiB3aWR0aD0iMTk4IiBoZWlnaHQ9IjgyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==">
                 </div>
                 <div class="schedule-btn">
-                    <a href="{{route('course.schedule',['course' => 'agile-management','subcourse' => 'csm-certification-training'])}}" class="btn btn-success change-schedule-uri hidden-xs hidden-sm loader" rel="nofollow" data-text="View Schedules">View Schedules</a>
+                    <a target="_blank" href="{{route('course.schedule',['course' => 'agile-management','subcourse' => 'csm-certification-training'])}}" class="btn btn-success " rel="nofollow" data-text="View Schedules">View Schedules</a>
                     <a href="javascript:void(0)" class="btn btn-default" data-toggle="modal" data-target="#course-advisor-modal"> Contact Course Advisor </a>
                 </div>
                 <ul class="social-numbers list-inline clearfix hidden-xs"> <img height="82" width="198" id="MTMxNjoxODQ=-1" src="{{asset('images/2.png')}}">
@@ -104,1344 +104,6 @@
     </div>
 </div>
 <div class="course-summary" data-sticky_parent="">
-    <div class="detail-sidebar-sticky sidebar hidden-xs hidden-sm" data-sticky_column="">
-        <div class="container">
-            <div class="clearfix">
-                <div class="detail-sidebar">
-                    <div class="panel-group" id="sidebar-accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default" data-learning-type="1">
-                            <div class="panel-heading active" role="tab" id="heading1">
-                                <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#sidebar-accordion" href="#sidebar1" aria-expanded="false" aria-controls="sidebar1"> <span class="heading"> Live
-                                            Virtual Training </span> <span class="content editor-content">
-                                            <p> </p>
-                                            <p>Live and interactive sessions by industry-experienced CSTs<br></p>
-                                            <p></p>
-                                        </span> </a> </h4>
-                            </div>
-                            <div id="sidebar1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
-                                <div class="panel-body">
-                                    <div class="course-block">
-                                        <div class="editor-content">
-                                            <ul>
-                                                <li>16 Hrs of Instructor-Led Sessions</li>
-                                                <li>16 SEUs and PDUs</li>
-                                                <li>Training by Experienced CSTs</li>
-                                                <li>Real-World Case Studies, Activities</li>
-                                            </ul>
-                                        </div> <a href="/schedule/online-classroom" class="btn btn-success btn-block change-schedule-uri loader" rel="nofollow" data-text="View Online Schedules">View Online
-                                            Schedules</a> <a href="javascript:void(0);" data-toggle="modal" data-target="#refund-policy-modal-csm-certification-training" class="money-back" data-type="ssg-ibf"> <img data-src="https://cdn-cllme.nitrocdn.com/fsJtPHuAIrjqkSrOmOGUpPSluVVKYWgR/assets/static/optimized/rev-f20475c/assets/images/cashback.svg" nitro-lazy-src="https://cdn-cllme.nitrocdn.com/fsJtPHuAIrjqkSrOmOGUpPSluVVKYWgR/assets/static/optimized/rev-f20475c/assets/images/cashback.svg" class="lazy lazyloaded" nitro-lazy-empty="" id="MTQ1MzoxNTY=-1" src="./CSM Certification _ CSM Training _ Scrum Master Certification_files/cashback.svg">
-                                            100% Money Back Guarantee <i class="fa fa-info-circle"></i> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <a href="/schedule/online-classroom" class="modes default change-schedule-uri" rel="nofollow" data-learning-type="1"><span class="heading">Live Virtual Training</span><span class="content editor-content">
-                                <ul>
-                                    <li>16 Hrs of Instructor-Led Sessions</li>
-                                    <li>16 SEUs and PDUs</li>
-                                    <li>Training by Experienced CSTs</li>
-                                    <li>Real-World Case Studies, Activities</li>
-                                </ul>
-                            </span></a>
-                        <div class="panel panel-default" data-learning-type="2">
-                            <div class="panel-heading " role="tab" id="heading2">
-                                <h4 class="panel-title"> <a role="button" class="collapsed" data-toggle="collapse" data-parent="#sidebar-accordion" href="#sidebar2" aria-expanded="true" aria-controls="sidebar2"> <span class="heading">
-                                            Classroom Training is Back! </span> <span class="content editor-content">
-                                            <p> </p>
-                                            <p>In-person, activity-packed learning for Scrum Masters in the
-                                                making<br></p>
-                                            <p></p>
-                                        </span> </a> </h4>
-                            </div>
-                            <div id="sidebar2" class="panel-collapse collapse  " role="tabpanel" aria-labelledby="heading2">
-                                <div class="panel-body">
-                                    <div class="course-block">
-                                        <div class="editor-content">
-                                            <ul>
-                                                <li>Distraction-free zone</li>
-                                                <li>Get all your doubts clarified</li>
-                                                <li>Learn from your peers</li>
-                                                <li>Engaging in-person activities<br></li>
-                                            </ul>
-                                        </div> <a href="/schedule/classroom" class="btn btn-success btn-block change-schedule-uri loader" rel="nofollow" data-text="View Classroom Schedules">View Classroom
-                                            Schedules</a> <a href="javascript:void(0);" data-toggle="modal" data-target="#refund-policy-modal-csm-certification-training" class="money-back" data-type="ssg-ibf"> <img data-src="https://cdn-cllme.nitrocdn.com/fsJtPHuAIrjqkSrOmOGUpPSluVVKYWgR/assets/static/optimized/rev-f20475c/assets/images/cashback.svg" nitro-lazy-src="https://cdn-cllme.nitrocdn.com/fsJtPHuAIrjqkSrOmOGUpPSluVVKYWgR/assets/static/optimized/rev-f20475c/assets/images/cashback.svg" class="lazy nitro-lazy" nitro-lazy-empty="" id="MTQ4NDoxNTY=-1" src="data:image/svg+xml;nitro-empty-id=MTQ4NDoxNTY=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIgMjEiIHdpZHRoPSIzMiIgaGVpZ2h0PSIyMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48L3N2Zz4=">
-                                            100% Money Back Guarantee <i class="fa fa-info-circle"></i> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <a href="/schedule/classroom" class="modes default change-schedule-uri" rel="nofollow" data-learning-type="2"><span class="heading">Classroom Training is Back!</span><span class="content editor-content">
-                                <ul>
-                                    <li>Distraction-free zone</li>
-                                    <li>Get all your doubts clarified</li>
-                                    <li>Learn from your peers</li>
-                                    <li>Engaging in-person activities<br></li>
-                                </ul>
-                            </span></a> <a href="javascript:void(0)" class="modes" data-toggle="modal" data-target="#request-a-custom-quote-modal" data-disable="disable" data-parent="" rel="nofollow"> <span class="heading">Corporate Training</span> <span class="content  editor-content">
-                                <p>Build Agile teams that excel<br></p>
-                                <ul>
-                                    <li>Customized Corporate Training&nbsp;<br></li>
-                                    <li>Agile Coaching and Consulting</li>
-                                </ul>
-                            </span> </a>
-                    </div>
-                    <div class="required-info">
-                        <h3> Request more information </h3>
-                        <div id="radioBtn" class="btn-group"> <a class="btn btn-primary btn-sm active" data-toggle="tab" data-title="Individuals" data-target="#individuals">Individuals</a> <a class="btn btn-primary btn-sm notActive" data-toggle="tab" data-title="Business" data-target="#business">Business</a> </div>
-                        <div class="tab-content">
-                            <div class="tab-pane fade in active" id="individuals">
-                                <form action="https://www.knowledgehut.com/forms/ajax_add_request_more_information" id="requestMoreInformationForm" method="post" novalidate="novalidate" class="bv-form"><input type="hidden" name="VISITS" value="11"><input type="hidden" name="ILANDPAGE" value="https%3A//www.knowledgehut.com/faqs"><input type="hidden" name="LREFERRER" value="http%3A//127.0.0.1%3A8000/"><input type="hidden" name="IREFERRER" value="https%3A//www.knowledgehut.com/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DIndia-INR-IST-Desktop-Search-Brand-MSV-Exact_knowledgehunt_%7Badid%7D%26gclid%3DCjwKCAiAprGRBhBgEiwANJEY7EuRBTYfNBebJo2mAgsVDj42oXt5CCeRRguIzTMamr0FgjEPlSHd9RoCsBsQAvD_BwE"><input type="hidden" name="UTERM" value=""><input type="hidden" name="UCONTENT" value=""><input type="hidden" name="UCAMPAIGN" value="India-INR-IST-Desktop-Search-Brand-Top-Exact_knowledgehut_%7Badid%7D"><input type="hidden" name="UMEDIUM" value="cpc"><input type="hidden" name="USOURCE" value="google"> <input type="hidden" name="course_id" value="21"> <input type="hidden" value="agile-management/csm-certification-training" name="page"> <input type="text" name="certifying_authority" value="" class="display-hide">
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-6">
-                                            <div class="form-group blmd-form has-feedback">
-                                                <div class="blmd-line"> <input type="text" name="first_name" autocomplete="off" class="form-control" data-bv-field="first_name"><i class="form-control-feedback" data-bv-icon-for="first_name" style="display: none;"></i>
-                                                    <label class="blmd-label">First Name</label>
-                                                </div> <small data-bv-validator="stringLength" data-bv-validator-for="first_name" class="help-block" style="display: none;">This value is not valid</small><small data-bv-validator="notEmpty" data-bv-validator-for="first_name" class="help-block" style="display: none;">This value is not
-                                                    valid</small>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6">
-                                            <div class="form-group blmd-form has-feedback">
-                                                <div class="blmd-line"> <input type="text" name="last_name" autocomplete="off" class="form-control" data-bv-field="last_name"><i class="form-control-feedback" data-bv-icon-for="last_name" style="display: none;"></i>
-                                                    <label class="blmd-label">Last Name</label>
-                                                </div> <small data-bv-validator="stringLength" data-bv-validator-for="last_name" class="help-block" style="display: none;">This value is not valid</small><small data-bv-validator="notEmpty" data-bv-validator-for="last_name" class="help-block" style="display: none;">This value is not
-                                                    valid</small>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 col-sm-4 col-xs-4">
-                                            <div class="form-group blmd-form has-feedback">
-                                                <div class="blmd-line"> <i class="icons select-icon nitro-lazy"></i>
-                                                    <div class="btn-group bootstrap-select form-control isd-code select-picker">
-                                                        <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" role="button" title="+91"><span class="filter-option pull-left">+91</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
-                                                        <div class="dropdown-menu open" role="combobox">
-                                                            <ul class="dropdown-menu inner" role="listbox" aria-expanded="false">
-                                                                <li data-original-index="0"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Select ISD</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li class="divider" data-optgroup="1div"></li>
-                                                                <li class="dropdown-header " data-optgroup="1"><span class="text"></span></li>
-                                                                <li data-original-index="1" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+1</span>-<span class="second">United States</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="2" data-optgroup="1" class="selected"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="true"><span class="first">+91</span>-<span class="second">India</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="3" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+1</span>-<span class="second">Canada</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="4" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+61</span>-<span class="second">Australia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="5" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+65</span>-<span class="second">Singapore</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="6" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+64</span>-<span class="second">New Zealand</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="7" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+49</span>-<span class="second">Germany</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="8" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+971</span>-<span class="second">United Arab
-                                                                            Emirates</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="9" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+852</span>-<span class="second">Hong Kong</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="10" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+353</span>-<span class="second">Ireland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li class="divider" data-optgroup="1div"></li>
-                                                                <li data-original-index="11"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+358</span>-<span class="second">Aland Islands</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="12"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+355</span>-<span class="second">Albania</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="13"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+213</span>-<span class="second">Algeria</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="14"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+376</span>-<span class="second">Andorra</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="15"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+54</span>-<span class="second">Argentina</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="16"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+374</span>-<span class="second">Armenia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="17"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+61</span>-<span class="second">Australia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="18"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+43</span>-<span class="second">Austria</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="19"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+994</span>-<span class="second">Azerbaijan</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="20"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+973</span>-<span class="second">Bahrain</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="21"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+880</span>-<span class="second">Bangladesh</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="22"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+375</span>-<span class="second">Belarus</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="23"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+32</span>-<span class="second">Belgium</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="24"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+591</span>-<span class="second">Bolivia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="25"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+387</span>-<span class="second">Bosnia and
-                                                                            Herzegovina</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="26"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+267</span>-<span class="second">Botswana</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="27"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+55</span>-<span class="second">Brazil</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="28"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+673</span>-<span class="second">Brunei</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="29"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+359</span>-<span class="second">Bulgaria</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="30"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+855</span>-<span class="second">Cambodia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="31"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+1</span>-<span class="second">Canada</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="32"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+34</span>-<span class="second">Canary
-                                                                            Islands</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="33"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+56</span>-<span class="second">Chile</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="34"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+86</span>-<span class="second">China</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="35"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+57</span>-<span class="second">Colombia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="36"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+506</span>-<span class="second">Costa Rica</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="37"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+385</span>-<span class="second">Croatia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="38"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+357</span>-<span class="second">Cyprus</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="39"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+420</span>-<span class="second">Czech
-                                                                            Republic</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="40"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+45</span>-<span class="second">Denmark</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="41"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+20</span>-<span class="second">Egypt</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="42"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+372</span>-<span class="second">Estonia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="43"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+251</span>-<span class="second">Ethiopia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="44"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+298</span>-<span class="second">Faroe Islands</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="45"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+679</span>-<span class="second">Fiji</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="46"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+358</span>-<span class="second">Finland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="47"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+33</span>-<span class="second">France</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="48"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+995</span>-<span class="second">Georgia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="49"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+49</span>-<span class="second">Germany</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="50"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+233</span>-<span class="second">Ghana</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="51"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+350</span>-<span class="second">Gibraltar</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="52"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+30</span>-<span class="second">Greece</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="53"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+44</span>-<span class="second">Guernsey</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="54"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+852</span>-<span class="second">Hong Kong</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="55"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+36</span>-<span class="second">Hungary</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="56"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+354</span>-<span class="second">Iceland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="57"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+91</span>-<span class="second">India</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="58"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+62</span>-<span class="second">Indonesia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="59"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+98</span>-<span class="second">Iran</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="60"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+964</span>-<span class="second">Iraq</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="61"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+353</span>-<span class="second">Ireland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="62"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+44</span>-<span class="second">Isle of Man</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="63"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+972</span>-<span class="second">Israel</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="64"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+39</span>-<span class="second">Italy</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="65"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+81</span>-<span class="second">Japan</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="66"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+44</span>-<span class="second">Jersey</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="67"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+962</span>-<span class="second">Jordan</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="68"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+254</span>-<span class="second">Kenya</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="69"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+381</span>-<span class="second">Kosovo</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="70"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+965</span>-<span class="second">Kuwait</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="71"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+371</span>-<span class="second">Latvia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="72"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+961</span>-<span class="second">Lebanon</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="73"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+231</span>-<span class="second">Liberia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="74"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+218</span>-<span class="second">Libya</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="75"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+423</span>-<span class="second">Liechtenstein</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="76"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+370</span>-<span class="second">Lithuania</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="77"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+352</span>-<span class="second">Luxembourg</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="78"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+389</span>-<span class="second">Macedonia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="79"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+60</span>-<span class="second">Malaysia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="80"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+356</span>-<span class="second">Malta</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="81"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+52</span>-<span class="second">Mexico</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="82"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+373</span>-<span class="second">Moldova</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="83"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+377</span>-<span class="second">Monaco</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="84"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+976</span>-<span class="second">Mongolia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="85"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+382</span>-<span class="second">Montenegro</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="86"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+212</span>-<span class="second">Morocco</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="87"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+95</span>-<span class="second">Myanmar</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="88"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+977</span>-<span class="second">Nepal</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="89"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+31</span>-<span class="second">Netherlands</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="90"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">687</span>-<span class="second">New Caledonia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="91"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+64</span>-<span class="second">New Zealand</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="92"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+234</span>-<span class="second">Nigeria</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="93"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+44</span>-<span class="second">Northern
-                                                                            Ireland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="94"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+47</span>-<span class="second">Norway</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="95"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+968</span>-<span class="second">Oman</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="96"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+92</span>-<span class="second">Pakistan</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="97"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+507</span>-<span class="second">Panama</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="98"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+675</span>-<span class="second">Papua New
-                                                                            Guinea</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="99"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+51</span>-<span class="second">Peru</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="100"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+63</span>-<span class="second">Philippines</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="101"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+48</span>-<span class="second">Poland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="102"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+351</span>-<span class="second">Portugal</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="103"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+974</span>-<span class="second">Qatar</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="104"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+40</span>-<span class="second">Romania</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="105"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+7</span>-<span class="second">Russian
-                                                                            Federation</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="106"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+378</span>-<span class="second">San Marino</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="107"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+966</span>-<span class="second">Saudi Arabia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="108"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+44</span>-<span class="second">Scotland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="109"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+381</span>-<span class="second">Serbia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="110"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+65</span>-<span class="second">Singapore</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="111"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+421</span>-<span class="second">Slovakia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="112"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+386</span>-<span class="second">Slovenia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="113"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+27</span>-<span class="second">South Africa</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="114"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+82</span>-<span class="second">South Korea</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="115"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+34</span>-<span class="second">Spain</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="116"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+94</span>-<span class="second">Sri Lanka</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="117"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+249</span>-<span class="second">Sudan</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="118"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+47</span>-<span class="second">Svalbard and Jan
-                                                                            Mayen</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="119"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+46</span>-<span class="second">Sweden</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="120"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+41</span>-<span class="second">Switzerland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="121"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+886</span>-<span class="second">Taiwan ROC</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="122"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+255</span>-<span class="second">Tanzania</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="123"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+66</span>-<span class="second">Thailand</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="124"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+216</span>-<span class="second">Tunisia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="125"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+90</span>-<span class="second">Turkey</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="126"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+256</span>-<span class="second">Uganda</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="127"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+380</span>-<span class="second">Ukraine</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="128"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+971</span>-<span class="second">United Arab
-                                                                            Emirates</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="129"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+44</span>-<span class="second">United
-                                                                            Kingdom</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="130"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+1</span>-<span class="second">United States</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="131"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+598</span>-<span class="second">Uruguay</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="132"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+58</span>-<span class="second">Venezuela</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="133"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+84</span>-<span class="second">Vietnam</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="134"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+44</span>-<span class="second">Wales</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                            </ul>
-                                                        </div><select name="isd" class="form-control isd-code select-picker" tabindex="-98" data-bv-field="isd">
-                                                            <option value="">Select ISD</option>
-                                                            <optgroup>
-                                                                <option value="+1" title="+1" data-content="&lt;span class=&#39;first&#39;&gt;+1&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;United States&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+91" title="+91" data-content="&lt;span class=&#39;first&#39;&gt;+91&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;India&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+1" title="+1" data-content="&lt;span class=&#39;first&#39;&gt;+1&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Canada&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+61" title="+61" data-content="&lt;span class=&#39;first&#39;&gt;+61&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Australia&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+65" title="+65" data-content="&lt;span class=&#39;first&#39;&gt;+65&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Singapore&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+64" title="+64" data-content="&lt;span class=&#39;first&#39;&gt;+64&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;New Zealand&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+49" title="+49" data-content="&lt;span class=&#39;first&#39;&gt;+49&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Germany&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+971" title="+971" data-content="&lt;span class=&#39;first&#39;&gt;+971&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;United Arab Emirates&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+852" title="+852" data-content="&lt;span class=&#39;first&#39;&gt;+852&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Hong Kong&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+353" title="+353" data-content="&lt;span class=&#39;first&#39;&gt;+353&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Ireland&lt;/span&gt;">
-                                                                </option>
-                                                            </optgroup>
-                                                            <option value="+358" title="+358" data-content="&lt;span class=&#39;first&#39;&gt;+358&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Aland Islands&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+355" title="+355" data-content="&lt;span class=&#39;first&#39;&gt;+355&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Albania&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+213" title="+213" data-content="&lt;span class=&#39;first&#39;&gt;+213&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Algeria&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+376" title="+376" data-content="&lt;span class=&#39;first&#39;&gt;+376&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Andorra&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+54" title="+54" data-content="&lt;span class=&#39;first&#39;&gt;+54&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Argentina&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+374" title="+374" data-content="&lt;span class=&#39;first&#39;&gt;+374&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Armenia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+61" title="+61" data-content="&lt;span class=&#39;first&#39;&gt;+61&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Australia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+43" title="+43" data-content="&lt;span class=&#39;first&#39;&gt;+43&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Austria&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+994" title="+994" data-content="&lt;span class=&#39;first&#39;&gt;+994&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Azerbaijan&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+973" title="+973" data-content="&lt;span class=&#39;first&#39;&gt;+973&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Bahrain&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+880" title="+880" data-content="&lt;span class=&#39;first&#39;&gt;+880&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Bangladesh&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+375" title="+375" data-content="&lt;span class=&#39;first&#39;&gt;+375&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Belarus&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+32" title="+32" data-content="&lt;span class=&#39;first&#39;&gt;+32&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Belgium&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+591" title="+591" data-content="&lt;span class=&#39;first&#39;&gt;+591&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Bolivia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+387" title="+387" data-content="&lt;span class=&#39;first&#39;&gt;+387&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Bosnia and Herzegovina&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+267" title="+267" data-content="&lt;span class=&#39;first&#39;&gt;+267&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Botswana&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+55" title="+55" data-content="&lt;span class=&#39;first&#39;&gt;+55&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Brazil&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+673" title="+673" data-content="&lt;span class=&#39;first&#39;&gt;+673&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Brunei&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+359" title="+359" data-content="&lt;span class=&#39;first&#39;&gt;+359&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Bulgaria&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+855" title="+855" data-content="&lt;span class=&#39;first&#39;&gt;+855&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Cambodia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+1" title="+1" data-content="&lt;span class=&#39;first&#39;&gt;+1&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Canada&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+34" title="+34" data-content="&lt;span class=&#39;first&#39;&gt;+34&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Canary Islands&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+56" title="+56" data-content="&lt;span class=&#39;first&#39;&gt;+56&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Chile&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+86" title="+86" data-content="&lt;span class=&#39;first&#39;&gt;+86&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;China&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+57" title="+57" data-content="&lt;span class=&#39;first&#39;&gt;+57&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Colombia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+506" title="+506" data-content="&lt;span class=&#39;first&#39;&gt;+506&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Costa Rica&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+385" title="+385" data-content="&lt;span class=&#39;first&#39;&gt;+385&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Croatia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+357" title="+357" data-content="&lt;span class=&#39;first&#39;&gt;+357&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Cyprus&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+420" title="+420" data-content="&lt;span class=&#39;first&#39;&gt;+420&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Czech Republic&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+45" title="+45" data-content="&lt;span class=&#39;first&#39;&gt;+45&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Denmark&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+20" title="+20" data-content="&lt;span class=&#39;first&#39;&gt;+20&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Egypt&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+372" title="+372" data-content="&lt;span class=&#39;first&#39;&gt;+372&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Estonia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+251" title="+251" data-content="&lt;span class=&#39;first&#39;&gt;+251&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Ethiopia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+298" title="+298" data-content="&lt;span class=&#39;first&#39;&gt;+298&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Faroe Islands&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+679" title="+679" data-content="&lt;span class=&#39;first&#39;&gt;+679&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Fiji&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+358" title="+358" data-content="&lt;span class=&#39;first&#39;&gt;+358&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Finland&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+33" title="+33" data-content="&lt;span class=&#39;first&#39;&gt;+33&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;France&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+995" title="+995" data-content="&lt;span class=&#39;first&#39;&gt;+995&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Georgia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+49" title="+49" data-content="&lt;span class=&#39;first&#39;&gt;+49&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Germany&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+233" title="+233" data-content="&lt;span class=&#39;first&#39;&gt;+233&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Ghana&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+350" title="+350" data-content="&lt;span class=&#39;first&#39;&gt;+350&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Gibraltar&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+30" title="+30" data-content="&lt;span class=&#39;first&#39;&gt;+30&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Greece&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+44" title="+44" data-content="&lt;span class=&#39;first&#39;&gt;+44&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Guernsey&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+852" title="+852" data-content="&lt;span class=&#39;first&#39;&gt;+852&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Hong Kong&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+36" title="+36" data-content="&lt;span class=&#39;first&#39;&gt;+36&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Hungary&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+354" title="+354" data-content="&lt;span class=&#39;first&#39;&gt;+354&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Iceland&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+91" title="+91" data-content="&lt;span class=&#39;first&#39;&gt;+91&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;India&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+62" title="+62" data-content="&lt;span class=&#39;first&#39;&gt;+62&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Indonesia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+98" title="+98" data-content="&lt;span class=&#39;first&#39;&gt;+98&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Iran&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+964" title="+964" data-content="&lt;span class=&#39;first&#39;&gt;+964&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Iraq&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+353" title="+353" data-content="&lt;span class=&#39;first&#39;&gt;+353&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Ireland&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+44" title="+44" data-content="&lt;span class=&#39;first&#39;&gt;+44&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Isle of Man&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+972" title="+972" data-content="&lt;span class=&#39;first&#39;&gt;+972&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Israel&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+39" title="+39" data-content="&lt;span class=&#39;first&#39;&gt;+39&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Italy&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+81" title="+81" data-content="&lt;span class=&#39;first&#39;&gt;+81&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Japan&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+44" title="+44" data-content="&lt;span class=&#39;first&#39;&gt;+44&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Jersey&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+962" title="+962" data-content="&lt;span class=&#39;first&#39;&gt;+962&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Jordan&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+254" title="+254" data-content="&lt;span class=&#39;first&#39;&gt;+254&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Kenya&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+381" title="+381" data-content="&lt;span class=&#39;first&#39;&gt;+381&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Kosovo&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+965" title="+965" data-content="&lt;span class=&#39;first&#39;&gt;+965&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Kuwait&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+371" title="+371" data-content="&lt;span class=&#39;first&#39;&gt;+371&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Latvia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+961" title="+961" data-content="&lt;span class=&#39;first&#39;&gt;+961&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Lebanon&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+231" title="+231" data-content="&lt;span class=&#39;first&#39;&gt;+231&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Liberia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+218" title="+218" data-content="&lt;span class=&#39;first&#39;&gt;+218&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Libya&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+423" title="+423" data-content="&lt;span class=&#39;first&#39;&gt;+423&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Liechtenstein&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+370" title="+370" data-content="&lt;span class=&#39;first&#39;&gt;+370&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Lithuania&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+352" title="+352" data-content="&lt;span class=&#39;first&#39;&gt;+352&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Luxembourg&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+389" title="+389" data-content="&lt;span class=&#39;first&#39;&gt;+389&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Macedonia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+60" title="+60" data-content="&lt;span class=&#39;first&#39;&gt;+60&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Malaysia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+356" title="+356" data-content="&lt;span class=&#39;first&#39;&gt;+356&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Malta&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+52" title="+52" data-content="&lt;span class=&#39;first&#39;&gt;+52&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Mexico&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+373" title="+373" data-content="&lt;span class=&#39;first&#39;&gt;+373&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Moldova&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+377" title="+377" data-content="&lt;span class=&#39;first&#39;&gt;+377&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Monaco&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+976" title="+976" data-content="&lt;span class=&#39;first&#39;&gt;+976&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Mongolia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+382" title="+382" data-content="&lt;span class=&#39;first&#39;&gt;+382&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Montenegro&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+212" title="+212" data-content="&lt;span class=&#39;first&#39;&gt;+212&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Morocco&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+95" title="+95" data-content="&lt;span class=&#39;first&#39;&gt;+95&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Myanmar&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+977" title="+977" data-content="&lt;span class=&#39;first&#39;&gt;+977&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Nepal&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+31" title="+31" data-content="&lt;span class=&#39;first&#39;&gt;+31&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Netherlands&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="687" title="687" data-content="&lt;span class=&#39;first&#39;&gt;687&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;New Caledonia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+64" title="+64" data-content="&lt;span class=&#39;first&#39;&gt;+64&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;New Zealand&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+234" title="+234" data-content="&lt;span class=&#39;first&#39;&gt;+234&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Nigeria&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+44" title="+44" data-content="&lt;span class=&#39;first&#39;&gt;+44&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Northern Ireland&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+47" title="+47" data-content="&lt;span class=&#39;first&#39;&gt;+47&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Norway&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+968" title="+968" data-content="&lt;span class=&#39;first&#39;&gt;+968&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Oman&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+92" title="+92" data-content="&lt;span class=&#39;first&#39;&gt;+92&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Pakistan&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+507" title="+507" data-content="&lt;span class=&#39;first&#39;&gt;+507&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Panama&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+675" title="+675" data-content="&lt;span class=&#39;first&#39;&gt;+675&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Papua New Guinea&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+51" title="+51" data-content="&lt;span class=&#39;first&#39;&gt;+51&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Peru&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+63" title="+63" data-content="&lt;span class=&#39;first&#39;&gt;+63&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Philippines&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+48" title="+48" data-content="&lt;span class=&#39;first&#39;&gt;+48&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Poland&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+351" title="+351" data-content="&lt;span class=&#39;first&#39;&gt;+351&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Portugal&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+974" title="+974" data-content="&lt;span class=&#39;first&#39;&gt;+974&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Qatar&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+40" title="+40" data-content="&lt;span class=&#39;first&#39;&gt;+40&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Romania&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+7" title="+7" data-content="&lt;span class=&#39;first&#39;&gt;+7&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Russian Federation&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+378" title="+378" data-content="&lt;span class=&#39;first&#39;&gt;+378&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;San Marino&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+966" title="+966" data-content="&lt;span class=&#39;first&#39;&gt;+966&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Saudi Arabia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+44" title="+44" data-content="&lt;span class=&#39;first&#39;&gt;+44&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Scotland&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+381" title="+381" data-content="&lt;span class=&#39;first&#39;&gt;+381&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Serbia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+65" title="+65" data-content="&lt;span class=&#39;first&#39;&gt;+65&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Singapore&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+421" title="+421" data-content="&lt;span class=&#39;first&#39;&gt;+421&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Slovakia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+386" title="+386" data-content="&lt;span class=&#39;first&#39;&gt;+386&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Slovenia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+27" title="+27" data-content="&lt;span class=&#39;first&#39;&gt;+27&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;South Africa&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+82" title="+82" data-content="&lt;span class=&#39;first&#39;&gt;+82&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;South Korea&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+34" title="+34" data-content="&lt;span class=&#39;first&#39;&gt;+34&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Spain&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+94" title="+94" data-content="&lt;span class=&#39;first&#39;&gt;+94&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Sri Lanka&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+249" title="+249" data-content="&lt;span class=&#39;first&#39;&gt;+249&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Sudan&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+47" title="+47" data-content="&lt;span class=&#39;first&#39;&gt;+47&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Svalbard and Jan Mayen&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+46" title="+46" data-content="&lt;span class=&#39;first&#39;&gt;+46&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Sweden&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+41" title="+41" data-content="&lt;span class=&#39;first&#39;&gt;+41&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Switzerland&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+886" title="+886" data-content="&lt;span class=&#39;first&#39;&gt;+886&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Taiwan ROC&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+255" title="+255" data-content="&lt;span class=&#39;first&#39;&gt;+255&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Tanzania&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+66" title="+66" data-content="&lt;span class=&#39;first&#39;&gt;+66&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Thailand&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+216" title="+216" data-content="&lt;span class=&#39;first&#39;&gt;+216&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Tunisia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+90" title="+90" data-content="&lt;span class=&#39;first&#39;&gt;+90&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Turkey&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+256" title="+256" data-content="&lt;span class=&#39;first&#39;&gt;+256&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Uganda&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+380" title="+380" data-content="&lt;span class=&#39;first&#39;&gt;+380&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Ukraine&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+971" title="+971" data-content="&lt;span class=&#39;first&#39;&gt;+971&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;United Arab Emirates&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+44" title="+44" data-content="&lt;span class=&#39;first&#39;&gt;+44&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;United Kingdom&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+1" title="+1" data-content="&lt;span class=&#39;first&#39;&gt;+1&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;United States&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+598" title="+598" data-content="&lt;span class=&#39;first&#39;&gt;+598&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Uruguay&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+58" title="+58" data-content="&lt;span class=&#39;first&#39;&gt;+58&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Venezuela&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+84" title="+84" data-content="&lt;span class=&#39;first&#39;&gt;+84&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Vietnam&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+44" title="+44" data-content="&lt;span class=&#39;first&#39;&gt;+44&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Wales&lt;/span&gt;">
-                                                            </option>
-                                                        </select><i class="form-control-feedback" data-bv-icon-for="isd" style="display: none; top: 0px;"></i>
-                                                    </div>
-                                                </div> <small data-bv-validator="stringLength" data-bv-validator-for="isd" class="help-block" style="display: none;">This value is not valid</small><small data-bv-validator="notEmpty" data-bv-validator-for="isd" class="help-block" style="display: none;">This value is not
-                                                    valid</small>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-8 col-sm-8 col-xs-8">
-                                            <div class="form-group blmd-form has-feedback">
-                                                <div class="blmd-line"> <input name="phone" onkeypress="return (event.charCode &gt;= 48 &amp;&amp; event.charCode &lt;= 57) || (event.keyCode == 8 || event.keyCode == 46 || event.keyCode == 37 || event.keyCode == 39)" maxlength="30" autocomplete="off" class="form-control" data-bv-field="phone" placeholder="" type="text"><i class="form-control-feedback" data-bv-icon-for="phone" style="display: none;"></i> <label class="blmd-label">Phone</label> </div> <small data-bv-validator="stringLength" data-bv-validator-for="phone" class="help-block" style="display: none;">This value is not
-                                                    valid</small><small data-bv-validator="notEmpty" data-bv-validator-for="phone" class="help-block" style="display: none;">This value is not valid</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group blmd-form has-feedback">
-                                        <div class="blmd-line"> <input type="text" name="email" autocomplete="off" class="form-control" data-bv-field="email"><i class="form-control-feedback" data-bv-icon-for="email" style="display: none;"></i> <label class="blmd-label">Email</label>
-                                        </div> <small data-bv-validator="stringLength" data-bv-validator-for="email" class="help-block" style="display: none;">This value is not
-                                            valid</small><small data-bv-validator="notEmpty" data-bv-validator-for="email" class="help-block" style="display: none;">This value is not valid</small><small data-bv-validator="emailAddress" data-bv-validator-for="email" class="help-block" style="display: none;">This value is not
-                                            valid</small>
-                                    </div>
-                                    <div class="form-group blmd-form has-feedback">
-                                        <div class="blmd-line"> <textarea rows="2" name="query" autocomplete="off" class="form-control" data-bv-field="query"></textarea><i class="form-control-feedback" data-bv-icon-for="query" style="display: none;"></i> <label class="blmd-label">Message
-                                                Details (optional)</label> </div> <small data-bv-validator="stringLength" data-bv-validator-for="query" class="help-block" style="display: none;">This value is not
-                                            valid</small>
-                                    </div>
-                                    <div class="form-group hide">
-                                        <div class="checkbox checkbox-success"> <input id="course-layout-request-info-ind-checkbox-agree" class="styled checkbox-agree" name="agree_gdpr" type="checkbox">
-                                            <label for="course-layout-request-info-ind-checkbox-agree">I agree to <a href="https://www.knowledgehut.com/terms-conditions" class="color-3" target="_blank">Terms of Use</a> &amp; <a href="https://www.knowledgehut.com/privacy-policy" class="color-3" target="_blank">Privacy Policy</a></label>
-                                        </div>
-                                    </div>
-                                    <div class="text-right"> <button type="submit" class="btn btn-success"> Submit
-                                        </button> </div> <input type="hidden" value="">
-                                </form>
-                            </div>
-                            <div class="tab-pane fade" id="business">
-                                <form action="https://www.knowledgehut.com/forms/ajax_add_request_more_information" id="requestMoreCInformationForm" method="post" novalidate="novalidate" class="bv-form"><input type="hidden" name="VISITS" value="11"><input type="hidden" name="ILANDPAGE" value="https%3A//www.knowledgehut.com/faqs"><input type="hidden" name="LREFERRER" value="http%3A//127.0.0.1%3A8000/"><input type="hidden" name="IREFERRER" value="https%3A//www.knowledgehut.com/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DIndia-INR-IST-Desktop-Search-Brand-MSV-Exact_knowledgehunt_%7Badid%7D%26gclid%3DCjwKCAiAprGRBhBgEiwANJEY7EuRBTYfNBebJo2mAgsVDj42oXt5CCeRRguIzTMamr0FgjEPlSHd9RoCsBsQAvD_BwE"><input type="hidden" name="UTERM" value=""><input type="hidden" name="UCONTENT" value=""><input type="hidden" name="UCAMPAIGN" value="India-INR-IST-Desktop-Search-Brand-Top-Exact_knowledgehut_%7Badid%7D"><input type="hidden" name="UMEDIUM" value="cpc"><input type="hidden" name="USOURCE" value="google"> <input type="hidden" name="course_id" value="21"> <input type="hidden" value="agile-management/csm-certification-training" name="page"> <input type="text" name="certifying_authority" value="" class="display-hide">
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-6">
-                                            <div class="form-group blmd-form has-feedback">
-                                                <div class="blmd-line"> <input type="text" name="first_name" autocomplete="off" class="form-control" data-bv-field="first_name"><i class="form-control-feedback" data-bv-icon-for="first_name" style="display: none;"></i>
-                                                    <label class="blmd-label">First Name</label>
-                                                </div> <small data-bv-validator="stringLength" data-bv-validator-for="first_name" class="help-block" style="display: none;">This value is not valid</small><small data-bv-validator="notEmpty" data-bv-validator-for="first_name" class="help-block" style="display: none;">This value is not
-                                                    valid</small>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6">
-                                            <div class="form-group blmd-form has-feedback">
-                                                <div class="blmd-line"> <input type="text" name="last_name" autocomplete="off" class="form-control" data-bv-field="last_name"><i class="form-control-feedback" data-bv-icon-for="last_name" style="display: none;"></i>
-                                                    <label class="blmd-label">Last Name</label>
-                                                </div> <small data-bv-validator="stringLength" data-bv-validator-for="last_name" class="help-block" style="display: none;">This value is not valid</small><small data-bv-validator="notEmpty" data-bv-validator-for="last_name" class="help-block" style="display: none;">This value is not
-                                                    valid</small>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 col-sm-4 col-xs-4">
-                                            <div class="form-group blmd-form has-feedback">
-                                                <div class="blmd-line"> <i class="icons select-icon nitro-lazy"></i>
-                                                    <div class="btn-group bootstrap-select form-control isd-code select-picker">
-                                                        <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" role="button" title="+91"><span class="filter-option pull-left">+91</span>&nbsp;<span class="bs-caret"><span class="caret"></span></span></button>
-                                                        <div class="dropdown-menu open" role="combobox">
-                                                            <ul class="dropdown-menu inner" role="listbox" aria-expanded="false">
-                                                                <li data-original-index="0"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="text">Select ISD</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li class="divider" data-optgroup="1div"></li>
-                                                                <li class="dropdown-header " data-optgroup="1"><span class="text"></span></li>
-                                                                <li data-original-index="1" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+1</span>-<span class="second">United States</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="2" data-optgroup="1" class="selected"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="true"><span class="first">+91</span>-<span class="second">India</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="3" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+1</span>-<span class="second">Canada</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="4" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+61</span>-<span class="second">Australia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="5" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+65</span>-<span class="second">Singapore</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="6" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+64</span>-<span class="second">New Zealand</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="7" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+49</span>-<span class="second">Germany</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="8" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+971</span>-<span class="second">United Arab
-                                                                            Emirates</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="9" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+852</span>-<span class="second">Hong Kong</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="10" data-optgroup="1"><a tabindex="0" class="opt  " data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+353</span>-<span class="second">Ireland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li class="divider" data-optgroup="1div"></li>
-                                                                <li data-original-index="11"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+358</span>-<span class="second">Aland Islands</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="12"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+355</span>-<span class="second">Albania</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="13"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+213</span>-<span class="second">Algeria</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="14"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+376</span>-<span class="second">Andorra</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="15"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+54</span>-<span class="second">Argentina</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="16"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+374</span>-<span class="second">Armenia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="17"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+61</span>-<span class="second">Australia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="18"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+43</span>-<span class="second">Austria</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="19"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+994</span>-<span class="second">Azerbaijan</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="20"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+973</span>-<span class="second">Bahrain</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="21"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+880</span>-<span class="second">Bangladesh</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="22"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+375</span>-<span class="second">Belarus</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="23"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+32</span>-<span class="second">Belgium</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="24"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+591</span>-<span class="second">Bolivia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="25"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+387</span>-<span class="second">Bosnia and
-                                                                            Herzegovina</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="26"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+267</span>-<span class="second">Botswana</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="27"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+55</span>-<span class="second">Brazil</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="28"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+673</span>-<span class="second">Brunei</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="29"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+359</span>-<span class="second">Bulgaria</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="30"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+855</span>-<span class="second">Cambodia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="31"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+1</span>-<span class="second">Canada</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="32"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+34</span>-<span class="second">Canary
-                                                                            Islands</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="33"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+56</span>-<span class="second">Chile</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="34"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+86</span>-<span class="second">China</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="35"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+57</span>-<span class="second">Colombia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="36"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+506</span>-<span class="second">Costa Rica</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="37"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+385</span>-<span class="second">Croatia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="38"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+357</span>-<span class="second">Cyprus</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="39"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+420</span>-<span class="second">Czech
-                                                                            Republic</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="40"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+45</span>-<span class="second">Denmark</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="41"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+20</span>-<span class="second">Egypt</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="42"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+372</span>-<span class="second">Estonia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="43"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+251</span>-<span class="second">Ethiopia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="44"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+298</span>-<span class="second">Faroe Islands</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="45"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+679</span>-<span class="second">Fiji</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="46"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+358</span>-<span class="second">Finland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="47"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+33</span>-<span class="second">France</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="48"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+995</span>-<span class="second">Georgia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="49"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+49</span>-<span class="second">Germany</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="50"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+233</span>-<span class="second">Ghana</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="51"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+350</span>-<span class="second">Gibraltar</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="52"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+30</span>-<span class="second">Greece</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="53"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+44</span>-<span class="second">Guernsey</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="54"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+852</span>-<span class="second">Hong Kong</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="55"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+36</span>-<span class="second">Hungary</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="56"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+354</span>-<span class="second">Iceland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="57"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+91</span>-<span class="second">India</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="58"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+62</span>-<span class="second">Indonesia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="59"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+98</span>-<span class="second">Iran</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="60"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+964</span>-<span class="second">Iraq</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="61"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+353</span>-<span class="second">Ireland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="62"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+44</span>-<span class="second">Isle of Man</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="63"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+972</span>-<span class="second">Israel</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="64"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+39</span>-<span class="second">Italy</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="65"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+81</span>-<span class="second">Japan</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="66"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+44</span>-<span class="second">Jersey</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="67"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+962</span>-<span class="second">Jordan</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="68"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+254</span>-<span class="second">Kenya</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="69"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+381</span>-<span class="second">Kosovo</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="70"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+965</span>-<span class="second">Kuwait</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="71"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+371</span>-<span class="second">Latvia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="72"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+961</span>-<span class="second">Lebanon</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="73"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+231</span>-<span class="second">Liberia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="74"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+218</span>-<span class="second">Libya</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="75"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+423</span>-<span class="second">Liechtenstein</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="76"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+370</span>-<span class="second">Lithuania</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="77"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+352</span>-<span class="second">Luxembourg</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="78"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+389</span>-<span class="second">Macedonia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="79"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+60</span>-<span class="second">Malaysia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="80"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+356</span>-<span class="second">Malta</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="81"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+52</span>-<span class="second">Mexico</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="82"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+373</span>-<span class="second">Moldova</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="83"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+377</span>-<span class="second">Monaco</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="84"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+976</span>-<span class="second">Mongolia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="85"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+382</span>-<span class="second">Montenegro</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="86"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+212</span>-<span class="second">Morocco</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="87"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+95</span>-<span class="second">Myanmar</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="88"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+977</span>-<span class="second">Nepal</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="89"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+31</span>-<span class="second">Netherlands</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="90"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">687</span>-<span class="second">New Caledonia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="91"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+64</span>-<span class="second">New Zealand</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="92"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+234</span>-<span class="second">Nigeria</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="93"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+44</span>-<span class="second">Northern
-                                                                            Ireland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="94"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+47</span>-<span class="second">Norway</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="95"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+968</span>-<span class="second">Oman</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="96"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+92</span>-<span class="second">Pakistan</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="97"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+507</span>-<span class="second">Panama</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="98"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+675</span>-<span class="second">Papua New
-                                                                            Guinea</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="99"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+51</span>-<span class="second">Peru</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="100"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+63</span>-<span class="second">Philippines</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="101"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+48</span>-<span class="second">Poland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="102"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+351</span>-<span class="second">Portugal</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="103"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+974</span>-<span class="second">Qatar</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="104"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+40</span>-<span class="second">Romania</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="105"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+7</span>-<span class="second">Russian
-                                                                            Federation</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="106"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+378</span>-<span class="second">San Marino</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="107"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+966</span>-<span class="second">Saudi Arabia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="108"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+44</span>-<span class="second">Scotland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="109"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+381</span>-<span class="second">Serbia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="110"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+65</span>-<span class="second">Singapore</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="111"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+421</span>-<span class="second">Slovakia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="112"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+386</span>-<span class="second">Slovenia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="113"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+27</span>-<span class="second">South Africa</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="114"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+82</span>-<span class="second">South Korea</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="115"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+34</span>-<span class="second">Spain</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="116"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+94</span>-<span class="second">Sri Lanka</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="117"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+249</span>-<span class="second">Sudan</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="118"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+47</span>-<span class="second">Svalbard and Jan
-                                                                            Mayen</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="119"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+46</span>-<span class="second">Sweden</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="120"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+41</span>-<span class="second">Switzerland</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="121"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+886</span>-<span class="second">Taiwan ROC</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="122"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+255</span>-<span class="second">Tanzania</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="123"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+66</span>-<span class="second">Thailand</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="124"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+216</span>-<span class="second">Tunisia</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="125"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+90</span>-<span class="second">Turkey</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="126"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+256</span>-<span class="second">Uganda</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="127"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+380</span>-<span class="second">Ukraine</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="128"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+971</span>-<span class="second">United Arab
-                                                                            Emirates</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="129"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+44</span>-<span class="second">United
-                                                                            Kingdom</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="130"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+1</span>-<span class="second">United States</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="131"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+598</span>-<span class="second">Uruguay</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="132"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+58</span>-<span class="second">Venezuela</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="133"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+84</span>-<span class="second">Vietnam</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                                <li data-original-index="134"><a tabindex="0" class="" data-tokens="null" role="option" aria-disabled="false" aria-selected="false"><span class="first">+44</span>-<span class="second">Wales</span><span class="glyphicon glyphicon-ok check-mark"></span></a>
-                                                                </li>
-                                                            </ul>
-                                                        </div><select name="isd" class="form-control isd-code select-picker" tabindex="-98" data-bv-field="isd">
-                                                            <option value="">Select ISD</option>
-                                                            <optgroup>
-                                                                <option value="+1" title="+1" data-content="&lt;span class=&#39;first&#39;&gt;+1&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;United States&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+91" title="+91" data-content="&lt;span class=&#39;first&#39;&gt;+91&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;India&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+1" title="+1" data-content="&lt;span class=&#39;first&#39;&gt;+1&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Canada&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+61" title="+61" data-content="&lt;span class=&#39;first&#39;&gt;+61&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Australia&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+65" title="+65" data-content="&lt;span class=&#39;first&#39;&gt;+65&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Singapore&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+64" title="+64" data-content="&lt;span class=&#39;first&#39;&gt;+64&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;New Zealand&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+49" title="+49" data-content="&lt;span class=&#39;first&#39;&gt;+49&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Germany&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+971" title="+971" data-content="&lt;span class=&#39;first&#39;&gt;+971&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;United Arab Emirates&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+852" title="+852" data-content="&lt;span class=&#39;first&#39;&gt;+852&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Hong Kong&lt;/span&gt;">
-                                                                </option>
-                                                                <option value="+353" title="+353" data-content="&lt;span class=&#39;first&#39;&gt;+353&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Ireland&lt;/span&gt;">
-                                                                </option>
-                                                            </optgroup>
-                                                            <option value="+358" title="+358" data-content="&lt;span class=&#39;first&#39;&gt;+358&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Aland Islands&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+355" title="+355" data-content="&lt;span class=&#39;first&#39;&gt;+355&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Albania&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+213" title="+213" data-content="&lt;span class=&#39;first&#39;&gt;+213&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Algeria&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+376" title="+376" data-content="&lt;span class=&#39;first&#39;&gt;+376&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Andorra&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+54" title="+54" data-content="&lt;span class=&#39;first&#39;&gt;+54&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Argentina&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+374" title="+374" data-content="&lt;span class=&#39;first&#39;&gt;+374&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Armenia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+61" title="+61" data-content="&lt;span class=&#39;first&#39;&gt;+61&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Australia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+43" title="+43" data-content="&lt;span class=&#39;first&#39;&gt;+43&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Austria&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+994" title="+994" data-content="&lt;span class=&#39;first&#39;&gt;+994&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Azerbaijan&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+973" title="+973" data-content="&lt;span class=&#39;first&#39;&gt;+973&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Bahrain&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+880" title="+880" data-content="&lt;span class=&#39;first&#39;&gt;+880&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Bangladesh&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+375" title="+375" data-content="&lt;span class=&#39;first&#39;&gt;+375&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Belarus&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+32" title="+32" data-content="&lt;span class=&#39;first&#39;&gt;+32&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Belgium&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+591" title="+591" data-content="&lt;span class=&#39;first&#39;&gt;+591&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Bolivia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+387" title="+387" data-content="&lt;span class=&#39;first&#39;&gt;+387&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Bosnia and Herzegovina&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+267" title="+267" data-content="&lt;span class=&#39;first&#39;&gt;+267&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Botswana&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+55" title="+55" data-content="&lt;span class=&#39;first&#39;&gt;+55&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Brazil&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+673" title="+673" data-content="&lt;span class=&#39;first&#39;&gt;+673&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Brunei&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+359" title="+359" data-content="&lt;span class=&#39;first&#39;&gt;+359&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Bulgaria&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+855" title="+855" data-content="&lt;span class=&#39;first&#39;&gt;+855&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Cambodia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+1" title="+1" data-content="&lt;span class=&#39;first&#39;&gt;+1&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Canada&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+34" title="+34" data-content="&lt;span class=&#39;first&#39;&gt;+34&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Canary Islands&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+56" title="+56" data-content="&lt;span class=&#39;first&#39;&gt;+56&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Chile&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+86" title="+86" data-content="&lt;span class=&#39;first&#39;&gt;+86&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;China&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+57" title="+57" data-content="&lt;span class=&#39;first&#39;&gt;+57&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Colombia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+506" title="+506" data-content="&lt;span class=&#39;first&#39;&gt;+506&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Costa Rica&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+385" title="+385" data-content="&lt;span class=&#39;first&#39;&gt;+385&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Croatia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+357" title="+357" data-content="&lt;span class=&#39;first&#39;&gt;+357&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Cyprus&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+420" title="+420" data-content="&lt;span class=&#39;first&#39;&gt;+420&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Czech Republic&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+45" title="+45" data-content="&lt;span class=&#39;first&#39;&gt;+45&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Denmark&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+20" title="+20" data-content="&lt;span class=&#39;first&#39;&gt;+20&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Egypt&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+372" title="+372" data-content="&lt;span class=&#39;first&#39;&gt;+372&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Estonia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+251" title="+251" data-content="&lt;span class=&#39;first&#39;&gt;+251&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Ethiopia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+298" title="+298" data-content="&lt;span class=&#39;first&#39;&gt;+298&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Faroe Islands&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+679" title="+679" data-content="&lt;span class=&#39;first&#39;&gt;+679&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Fiji&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+358" title="+358" data-content="&lt;span class=&#39;first&#39;&gt;+358&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Finland&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+33" title="+33" data-content="&lt;span class=&#39;first&#39;&gt;+33&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;France&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+995" title="+995" data-content="&lt;span class=&#39;first&#39;&gt;+995&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Georgia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+49" title="+49" data-content="&lt;span class=&#39;first&#39;&gt;+49&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Germany&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+233" title="+233" data-content="&lt;span class=&#39;first&#39;&gt;+233&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Ghana&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+350" title="+350" data-content="&lt;span class=&#39;first&#39;&gt;+350&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Gibraltar&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+30" title="+30" data-content="&lt;span class=&#39;first&#39;&gt;+30&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Greece&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+44" title="+44" data-content="&lt;span class=&#39;first&#39;&gt;+44&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Guernsey&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+852" title="+852" data-content="&lt;span class=&#39;first&#39;&gt;+852&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Hong Kong&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+36" title="+36" data-content="&lt;span class=&#39;first&#39;&gt;+36&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Hungary&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+354" title="+354" data-content="&lt;span class=&#39;first&#39;&gt;+354&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Iceland&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+91" title="+91" data-content="&lt;span class=&#39;first&#39;&gt;+91&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;India&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+62" title="+62" data-content="&lt;span class=&#39;first&#39;&gt;+62&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Indonesia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+98" title="+98" data-content="&lt;span class=&#39;first&#39;&gt;+98&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Iran&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+964" title="+964" data-content="&lt;span class=&#39;first&#39;&gt;+964&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Iraq&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+353" title="+353" data-content="&lt;span class=&#39;first&#39;&gt;+353&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Ireland&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+44" title="+44" data-content="&lt;span class=&#39;first&#39;&gt;+44&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Isle of Man&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+972" title="+972" data-content="&lt;span class=&#39;first&#39;&gt;+972&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Israel&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+39" title="+39" data-content="&lt;span class=&#39;first&#39;&gt;+39&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Italy&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+81" title="+81" data-content="&lt;span class=&#39;first&#39;&gt;+81&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Japan&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+44" title="+44" data-content="&lt;span class=&#39;first&#39;&gt;+44&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Jersey&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+962" title="+962" data-content="&lt;span class=&#39;first&#39;&gt;+962&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Jordan&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+254" title="+254" data-content="&lt;span class=&#39;first&#39;&gt;+254&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Kenya&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+381" title="+381" data-content="&lt;span class=&#39;first&#39;&gt;+381&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Kosovo&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+965" title="+965" data-content="&lt;span class=&#39;first&#39;&gt;+965&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Kuwait&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+371" title="+371" data-content="&lt;span class=&#39;first&#39;&gt;+371&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Latvia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+961" title="+961" data-content="&lt;span class=&#39;first&#39;&gt;+961&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Lebanon&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+231" title="+231" data-content="&lt;span class=&#39;first&#39;&gt;+231&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Liberia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+218" title="+218" data-content="&lt;span class=&#39;first&#39;&gt;+218&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Libya&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+423" title="+423" data-content="&lt;span class=&#39;first&#39;&gt;+423&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Liechtenstein&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+370" title="+370" data-content="&lt;span class=&#39;first&#39;&gt;+370&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Lithuania&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+352" title="+352" data-content="&lt;span class=&#39;first&#39;&gt;+352&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Luxembourg&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+389" title="+389" data-content="&lt;span class=&#39;first&#39;&gt;+389&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Macedonia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+60" title="+60" data-content="&lt;span class=&#39;first&#39;&gt;+60&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Malaysia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+356" title="+356" data-content="&lt;span class=&#39;first&#39;&gt;+356&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Malta&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+52" title="+52" data-content="&lt;span class=&#39;first&#39;&gt;+52&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Mexico&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+373" title="+373" data-content="&lt;span class=&#39;first&#39;&gt;+373&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Moldova&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+377" title="+377" data-content="&lt;span class=&#39;first&#39;&gt;+377&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Monaco&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+976" title="+976" data-content="&lt;span class=&#39;first&#39;&gt;+976&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Mongolia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+382" title="+382" data-content="&lt;span class=&#39;first&#39;&gt;+382&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Montenegro&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+212" title="+212" data-content="&lt;span class=&#39;first&#39;&gt;+212&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Morocco&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+95" title="+95" data-content="&lt;span class=&#39;first&#39;&gt;+95&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Myanmar&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+977" title="+977" data-content="&lt;span class=&#39;first&#39;&gt;+977&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Nepal&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+31" title="+31" data-content="&lt;span class=&#39;first&#39;&gt;+31&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Netherlands&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="687" title="687" data-content="&lt;span class=&#39;first&#39;&gt;687&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;New Caledonia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+64" title="+64" data-content="&lt;span class=&#39;first&#39;&gt;+64&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;New Zealand&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+234" title="+234" data-content="&lt;span class=&#39;first&#39;&gt;+234&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Nigeria&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+44" title="+44" data-content="&lt;span class=&#39;first&#39;&gt;+44&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Northern Ireland&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+47" title="+47" data-content="&lt;span class=&#39;first&#39;&gt;+47&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Norway&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+968" title="+968" data-content="&lt;span class=&#39;first&#39;&gt;+968&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Oman&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+92" title="+92" data-content="&lt;span class=&#39;first&#39;&gt;+92&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Pakistan&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+507" title="+507" data-content="&lt;span class=&#39;first&#39;&gt;+507&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Panama&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+675" title="+675" data-content="&lt;span class=&#39;first&#39;&gt;+675&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Papua New Guinea&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+51" title="+51" data-content="&lt;span class=&#39;first&#39;&gt;+51&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Peru&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+63" title="+63" data-content="&lt;span class=&#39;first&#39;&gt;+63&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Philippines&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+48" title="+48" data-content="&lt;span class=&#39;first&#39;&gt;+48&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Poland&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+351" title="+351" data-content="&lt;span class=&#39;first&#39;&gt;+351&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Portugal&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+974" title="+974" data-content="&lt;span class=&#39;first&#39;&gt;+974&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Qatar&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+40" title="+40" data-content="&lt;span class=&#39;first&#39;&gt;+40&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Romania&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+7" title="+7" data-content="&lt;span class=&#39;first&#39;&gt;+7&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Russian Federation&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+378" title="+378" data-content="&lt;span class=&#39;first&#39;&gt;+378&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;San Marino&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+966" title="+966" data-content="&lt;span class=&#39;first&#39;&gt;+966&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Saudi Arabia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+44" title="+44" data-content="&lt;span class=&#39;first&#39;&gt;+44&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Scotland&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+381" title="+381" data-content="&lt;span class=&#39;first&#39;&gt;+381&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Serbia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+65" title="+65" data-content="&lt;span class=&#39;first&#39;&gt;+65&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Singapore&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+421" title="+421" data-content="&lt;span class=&#39;first&#39;&gt;+421&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Slovakia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+386" title="+386" data-content="&lt;span class=&#39;first&#39;&gt;+386&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Slovenia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+27" title="+27" data-content="&lt;span class=&#39;first&#39;&gt;+27&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;South Africa&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+82" title="+82" data-content="&lt;span class=&#39;first&#39;&gt;+82&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;South Korea&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+34" title="+34" data-content="&lt;span class=&#39;first&#39;&gt;+34&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Spain&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+94" title="+94" data-content="&lt;span class=&#39;first&#39;&gt;+94&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Sri Lanka&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+249" title="+249" data-content="&lt;span class=&#39;first&#39;&gt;+249&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Sudan&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+47" title="+47" data-content="&lt;span class=&#39;first&#39;&gt;+47&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Svalbard and Jan Mayen&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+46" title="+46" data-content="&lt;span class=&#39;first&#39;&gt;+46&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Sweden&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+41" title="+41" data-content="&lt;span class=&#39;first&#39;&gt;+41&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Switzerland&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+886" title="+886" data-content="&lt;span class=&#39;first&#39;&gt;+886&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Taiwan ROC&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+255" title="+255" data-content="&lt;span class=&#39;first&#39;&gt;+255&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Tanzania&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+66" title="+66" data-content="&lt;span class=&#39;first&#39;&gt;+66&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Thailand&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+216" title="+216" data-content="&lt;span class=&#39;first&#39;&gt;+216&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Tunisia&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+90" title="+90" data-content="&lt;span class=&#39;first&#39;&gt;+90&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Turkey&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+256" title="+256" data-content="&lt;span class=&#39;first&#39;&gt;+256&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Uganda&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+380" title="+380" data-content="&lt;span class=&#39;first&#39;&gt;+380&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Ukraine&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+971" title="+971" data-content="&lt;span class=&#39;first&#39;&gt;+971&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;United Arab Emirates&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+44" title="+44" data-content="&lt;span class=&#39;first&#39;&gt;+44&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;United Kingdom&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+1" title="+1" data-content="&lt;span class=&#39;first&#39;&gt;+1&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;United States&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+598" title="+598" data-content="&lt;span class=&#39;first&#39;&gt;+598&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Uruguay&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+58" title="+58" data-content="&lt;span class=&#39;first&#39;&gt;+58&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Venezuela&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+84" title="+84" data-content="&lt;span class=&#39;first&#39;&gt;+84&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Vietnam&lt;/span&gt;">
-                                                            </option>
-                                                            <option value="+44" title="+44" data-content="&lt;span class=&#39;first&#39;&gt;+44&lt;/span&gt;-&lt;span class=&#39;second&#39;&gt;Wales&lt;/span&gt;">
-                                                            </option>
-                                                        </select><i class="form-control-feedback" data-bv-icon-for="isd" style="display: none; top: 0px;"></i>
-                                                    </div>
-                                                </div> <small data-bv-validator="stringLength" data-bv-validator-for="isd" class="help-block" style="display: none;">This value is not valid</small><small data-bv-validator="notEmpty" data-bv-validator-for="isd" class="help-block" style="display: none;">This value is not
-                                                    valid</small>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-8 col-sm-8 col-xs-8">
-                                            <div class="form-group blmd-form has-feedback">
-                                                <div class="blmd-line"> <input name="phone" onkeypress="return (event.charCode &gt;= 48 &amp;&amp; event.charCode &lt;= 57) || (event.keyCode == 8 || event.keyCode == 46 || event.keyCode == 37 || event.keyCode == 39)" maxlength="30" autocomplete="off" class="form-control" data-bv-field="phone" placeholder="" type="text"><i class="form-control-feedback" data-bv-icon-for="phone" style="display: none;"></i> <label class="blmd-label">Phone</label> </div> <small data-bv-validator="stringLength" data-bv-validator-for="phone" class="help-block" style="display: none;">This value is not
-                                                    valid</small><small data-bv-validator="notEmpty" data-bv-validator-for="phone" class="help-block" style="display: none;">This value is not valid</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group blmd-form has-feedback">
-                                        <div class="blmd-line"> <input type="text" name="email" autocomplete="off" class="form-control" data-bv-field="email"><i class="form-control-feedback" data-bv-icon-for="email" style="display: none;"></i> <label class="blmd-label">Email</label>
-                                        </div> <small data-bv-validator="stringLength" data-bv-validator-for="email" class="help-block" style="display: none;">This value is not
-                                            valid</small><small data-bv-validator="notEmpty" data-bv-validator-for="email" class="help-block" style="display: none;">This value is not valid</small><small data-bv-validator="emailAddress" data-bv-validator-for="email" class="help-block" style="display: none;">This value is not
-                                            valid</small>
-                                    </div>
-                                    <div class="form-group blmd-form has-feedback">
-                                        <div class="blmd-line"> <input type="text" name="company" autocomplete="off" class="form-control" data-bv-field="company"><i class="form-control-feedback" data-bv-icon-for="company" style="display: none;"></i> <label class="blmd-label">Company</label> </div> <small data-bv-validator="stringLength" data-bv-validator-for="company" class="help-block" style="display: none;">This value is not
-                                            valid</small><small data-bv-validator="notEmpty" data-bv-validator-for="company" class="help-block" style="display: none;">This value is not valid</small>
-                                    </div>
-                                    <div class="form-group blmd-form has-feedback">
-                                        <div class="blmd-line"> <textarea rows="2" name="query" autocomplete="off" class="form-control" data-bv-field="query"></textarea><i class="form-control-feedback" data-bv-icon-for="query" style="display: none;"></i> <label class="blmd-label">Message
-                                                Details (optional)</label> </div> <small data-bv-validator="stringLength" data-bv-validator-for="query" class="help-block" style="display: none;">This value is not
-                                            valid</small>
-                                    </div>
-                                    <div class="form-group hide">
-                                        <div class="checkbox checkbox-success"> <input id="course-layout-request-info-busi-checkbox-agree" class="styled checkbox-agree" name="agree_gdpr" type="checkbox">
-                                            <label for="course-layout-request-info-busi-checkbox-agree">I agree to
-                                                <a href="https://www.knowledgehut.com/terms-conditions" class="color-3" target="_blank">Terms of Use</a> &amp; <a href="https://www.knowledgehut.com/privacy-policy" class="color-3" target="_blank">Privacy Policy</a></label>
-                                        </div>
-                                    </div>
-                                    <div class="text-right"> <button type="submit" class="btn btn-success"> Submit
-                                        </button> </div> <input type="hidden" value="">
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <ul class="faq-segments">
-                        <li> <a href="agile-management/csm-certification-training#certification-process-certified-scrummaster">
-                                Certified ScrumMaster® </a> </li>
-                        <li> <a href="agile-management/csm-certification-training#certification-process-csm-training">
-                                CSM Training </a> </li>
-                        <li> <a href="agile-management/csm-certification-training#certification-process-csm-certification-exam">
-                                CSM Certification Exam </a> </li>
-                        <li> <a href="agile-management/csm-certification-training#certification-process-csm-certification">
-                                CSM Certification </a> </li>
-                        <li> <a href="agile-management/csm-certification-training#certification-process-csm-certification-process">
-                                CSM Certification Process </a> </li>
-                        <li> <a href="agile-management/csm-certification-training#certification-process-pdus-and-seus">
-                                PDUs and SEUs </a> </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
     <section class="pattern-1" id="overview-4" data-igggggg="456" style="margin-top: 0px;">
         <div class="container">
             <div class="row">
@@ -1490,13 +152,11 @@
                     </div>
                     <div class="patterns-tab">
                         <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="active"> <a href="agile-management/csm-certification-training#overview-4-tab-43-1" aria-controls="overview-4-tab-43-1" role="tab" data-toggle="tab">Organizational
-                                    Benefits</a> </li>
-                            <li role="presentation"> <a href="agile-management/csm-certification-training#overview-4-tab-43-2" aria-controls="overview-4-tab-43-2" role="tab" data-toggle="tab">Individual
-                                    Benefits</a> </li>
+                            <li role="presentation" class="active"> <a href="#overview-4-tab-43-1" aria-controls="overview-4-tab-43-1" role="tab" data-toggle="tab">Organizational Benefits</a> </li>
+                            <li role="presentation"> <a href="#overview-4-tab-43-2" aria-controls="overview-4-tab-43-2" role="tab" data-toggle="tab">Individual Benefits</a> </li>
                         </ul>
                         <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane fade in active" id="overview-4-tab-43-1">
+                            <div role="tabpanel" class="tab-pane fade in active show in" id="overview-4-tab-43-1">
                                 <div class="editor-content">
                                     <p>Today, most of the IT as well as non-IT industry majors are hiring candidates
                                         who are familiar with the Scrum framework. A Certified ScrumMaster® can
@@ -1541,7 +201,7 @@
                 <div class="col-md-9">
                     <h2 class="section-heading">Process to become a Certified Scrum Master</h2>
                     <div class="step-by-step-process">
-                        <h3>Steps to become a CSM</h3> <img data-src="https://cdn-cllme.nitrocdn.com/fsJtPHuAIrjqkSrOmOGUpPSluVVKYWgR/assets/static/optimized/rev-f20475c/courses/layouts/67645c70-8c25-4ccd-982f-26751956ab33.png" nitro-lazy-src="https://cdn-cllme.nitrocdn.com/fsJtPHuAIrjqkSrOmOGUpPSluVVKYWgR/assets/static/optimized/rev-f20475c/courses/layouts/67645c70-8c25-4ccd-982f-26751956ab33.png" class="lazy nitro-lazy" nitro-lazy-empty="" id="MjI5NzoxODQ=-1" src="data:image/svg+xml;nitro-empty-id=MjI5NzoxODQ=-1;base64,PHN2ZyB2aWV3Qm94PSIwIDAgODQ3IDI0MiIgd2lkdGg9Ijg0NyIgaGVpZ2h0PSIyNDIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+">
+                        <h3>Steps to become a CSM</h3> <img src="{{asset('images/steps_to_become_a_csm.webp')}}">
                         <ul>
                             <li>
                                 <p><b>Step 1:&nbsp;</b>Follow an easy and hassle-free approach to register on
@@ -1937,7 +597,7 @@
                     <div class="panel-group accordion" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
                             <div class="panel-heading active" role="tab" id="heading-curriculum-11">
-                                <h4 class="panel-title"> <a class="" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-11" aria-expanded="true" aria-controls="collapse-curriculum-11"> <span class="left">1</span> <span class="right">Agile and Scrum
+                                <h4 class="panel-title"> <a class="" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-11" aria-expanded="true" aria-controls="collapse-curriculum-11"> <span class="left">1</span> <span class="right">Agile and Scrum
                                             Overview</span> </a> </h4>
                             </div>
                             <div id="collapse-curriculum-11" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-curriculum-11">
@@ -1976,7 +636,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-curriculum-12">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-12" aria-expanded="false" aria-controls="collapse-curriculum-12"> <span class="left">2</span> <span class="right">The three roles in
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-12" aria-expanded="false" aria-controls="collapse-curriculum-12"> <span class="left">2</span> <span class="right">The three roles in
                                             Scrum</span> </a> </h4>
                             </div>
                             <div id="collapse-curriculum-12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-curriculum-12">
@@ -2014,7 +674,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-curriculum-13">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-13" aria-expanded="false" aria-controls="collapse-curriculum-13"> <span class="left">3</span> <span class="right">Scrum Ceremonies</span> </a>
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-13" aria-expanded="false" aria-controls="collapse-curriculum-13"> <span class="left">3</span> <span class="right">Scrum Ceremonies</span> </a>
                                 </h4>
                             </div>
                             <div id="collapse-curriculum-13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-curriculum-13">
@@ -2053,7 +713,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-curriculum-14">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-14" aria-expanded="false" aria-controls="collapse-curriculum-14"> <span class="left">4</span> <span class="right">Scrum Artifacts</span> </a>
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-14" aria-expanded="false" aria-controls="collapse-curriculum-14"> <span class="left">4</span> <span class="right">Scrum Artifacts</span> </a>
                                 </h4>
                             </div>
                             <div id="collapse-curriculum-14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-curriculum-14">
@@ -2091,7 +751,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-curriculum-15">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-15" aria-expanded="false" aria-controls="collapse-curriculum-15"> <span class="left">5</span> <span class="right">Sprint Execution</span> </a>
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-15" aria-expanded="false" aria-controls="collapse-curriculum-15"> <span class="left">5</span> <span class="right">Sprint Execution</span> </a>
                                 </h4>
                             </div>
                             <div id="collapse-curriculum-15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-curriculum-15">
@@ -2126,7 +786,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-curriculum-16">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-16" aria-expanded="false" aria-controls="collapse-curriculum-16"> <span class="left">6</span> <span class="right">Daily Scrum and Sprint
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-16" aria-expanded="false" aria-controls="collapse-curriculum-16"> <span class="left">6</span> <span class="right">Daily Scrum and Sprint
                                             Retrospective</span> </a> </h4>
                             </div>
                             <div id="collapse-curriculum-16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-curriculum-16">
@@ -2160,7 +820,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-curriculum-17">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-17" aria-expanded="false" aria-controls="collapse-curriculum-17"> <span class="left">7</span> <span class="right">Definition of Done (DoD) and
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-17" aria-expanded="false" aria-controls="collapse-curriculum-17"> <span class="left">7</span> <span class="right">Definition of Done (DoD) and
                                             Acceptance Criteria</span> </a> </h4>
                             </div>
                             <div id="collapse-curriculum-17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-curriculum-17">
@@ -2199,7 +859,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-curriculum-18">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-18" aria-expanded="false" aria-controls="collapse-curriculum-18"> <span class="left">8</span> <span class="right">Definition of Ready</span>
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-18" aria-expanded="false" aria-controls="collapse-curriculum-18"> <span class="left">8</span> <span class="right">Definition of Ready</span>
                                     </a> </h4>
                             </div>
                             <div id="collapse-curriculum-18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-curriculum-18">
@@ -2230,7 +890,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-curriculum-19">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-19" aria-expanded="false" aria-controls="collapse-curriculum-19"> <span class="left">9</span> <span class="right">Release Planning</span> </a>
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-19" aria-expanded="false" aria-controls="collapse-curriculum-19"> <span class="left">9</span> <span class="right">Release Planning</span> </a>
                                 </h4>
                             </div>
                             <div id="collapse-curriculum-19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-curriculum-19">
@@ -2260,7 +920,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-curriculum-110">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-110" aria-expanded="false" aria-controls="collapse-curriculum-110"> <span class="left">10</span> <span class="right">Sprint Burndown Chart</span>
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-110" aria-expanded="false" aria-controls="collapse-curriculum-110"> <span class="left">10</span> <span class="right">Sprint Burndown Chart</span>
                                     </a> </h4>
                             </div>
                             <div id="collapse-curriculum-110" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-curriculum-110">
@@ -2294,7 +954,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-curriculum-111">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-111" aria-expanded="false" aria-controls="collapse-curriculum-111"> <span class="left">11</span> <span class="right">Release Burn-Up Chart</span>
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-111" aria-expanded="false" aria-controls="collapse-curriculum-111"> <span class="left">11</span> <span class="right">Release Burn-Up Chart</span>
                                     </a> </h4>
                             </div>
                             <div id="collapse-curriculum-111" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-curriculum-111">
@@ -2328,7 +988,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-curriculum-112">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-112" aria-expanded="false" aria-controls="collapse-curriculum-112"> <span class="left">12</span> <span class="right">Product Planning</span> </a>
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-112" aria-expanded="false" aria-controls="collapse-curriculum-112"> <span class="left">12</span> <span class="right">Product Planning</span> </a>
                                 </h4>
                             </div>
                             <div id="collapse-curriculum-112" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-curriculum-112">
@@ -2348,7 +1008,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-curriculum-113">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-113" aria-expanded="false" aria-controls="collapse-curriculum-113"> <span class="left">13</span> <span class="right">User Stories</span> </a>
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-113" aria-expanded="false" aria-controls="collapse-curriculum-113"> <span class="left">13</span> <span class="right">User Stories</span> </a>
                                 </h4>
                             </div>
                             <div id="collapse-curriculum-113" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-curriculum-113">
@@ -2379,7 +1039,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-curriculum-114">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-114" aria-expanded="false" aria-controls="collapse-curriculum-114"> <span class="left">14</span> <span class="right">Agile Estimation</span> </a>
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-114" aria-expanded="false" aria-controls="collapse-curriculum-114"> <span class="left">14</span> <span class="right">Agile Estimation</span> </a>
                                 </h4>
                             </div>
                             <div id="collapse-curriculum-114" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-curriculum-114">
@@ -2412,7 +1072,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="heading-curriculum-115">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="agile-management/csm-certification-training#collapse-curriculum-115" aria-expanded="false" aria-controls="collapse-curriculum-115"> <span class="left">15</span> <span class="right">Planning Poker</span> </a>
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".accordion" href="#collapse-curriculum-115" aria-expanded="false" aria-controls="collapse-curriculum-115"> <span class="left">15</span> <span class="right">Planning Poker</span> </a>
                                 </h4>
                             </div>
                             <div id="collapse-curriculum-115" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-curriculum-115">
@@ -2470,7 +1130,7 @@
                     <div class="panel-group faq-accordion-1" role="tablist" aria-multiselectable="true">
                         <div class="panel panel-default">
                             <div class="panel-heading active" role="tab" id="faq-heading-1-1">
-                                <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="agile-management/csm-certification-training#faq-1-1" aria-expanded="true" aria-controls="faq-1-1">Why choose KnowledgeHut in your
+                                <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="#faq-1-1" aria-expanded="true" aria-controls="faq-1-1">Why choose KnowledgeHut in your
                                         journey to becoming a CSM certified professional?</a> </h4>
                             </div>
                             <div id="faq-1-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="faq-heading-1-1">
@@ -2500,7 +1160,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="faq-heading-1-2">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="agile-management/csm-certification-training#faq-1-2" aria-expanded="false" aria-controls="faq-1-2">How good are the trainers at
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="#faq-1-2" aria-expanded="false" aria-controls="faq-1-2">How good are the trainers at
                                         KnowledgeHut?</a> </h4>
                             </div>
                             <div id="faq-1-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-heading-1-2">
@@ -2522,7 +1182,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="faq-heading-1-3">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="agile-management/csm-certification-training#faq-1-3" aria-expanded="false" aria-controls="faq-1-3">Where will the Certified
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="#faq-1-3" aria-expanded="false" aria-controls="faq-1-3">Where will the Certified
                                         ScrumMaster workshop be held?</a> </h4>
                             </div>
                             <div id="faq-1-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-heading-1-3">
@@ -2537,7 +1197,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="faq-heading-1-4">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="agile-management/csm-certification-training#faq-1-4" aria-expanded="false" aria-controls="faq-1-4">Do you provide any training
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="#faq-1-4" aria-expanded="false" aria-controls="faq-1-4">Do you provide any training
                                         material for CSM certification?</a> </h4>
                             </div>
                             <div id="faq-1-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-heading-1-4">
@@ -2551,7 +1211,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="faq-heading-1-5">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="agile-management/csm-certification-training#faq-1-5" aria-expanded="false" aria-controls="faq-1-5">Which are the cities in which
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="#faq-1-5" aria-expanded="false" aria-controls="faq-1-5">Which are the cities in which
                                         KnowledgeHut conducts CSM® certification training?</a> </h4>
                             </div>
                             <div id="faq-1-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-heading-1-5">
@@ -2619,7 +1279,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="faq-heading-1-6">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="agile-management/csm-certification-training#faq-1-6" aria-expanded="false" aria-controls="faq-1-6">Is this a live CSM training,
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="#faq-1-6" aria-expanded="false" aria-controls="faq-1-6">Is this a live CSM training,
                                         or will I watch pre-recorded videos?</a> </h4>
                             </div>
                             <div id="faq-1-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-heading-1-6">
@@ -2633,7 +1293,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="faq-heading-1-7">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="agile-management/csm-certification-training#faq-1-7" aria-expanded="false" aria-controls="faq-1-7">Can I change the city, place,
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="#faq-1-7" aria-expanded="false" aria-controls="faq-1-7">Can I change the city, place,
                                         and date after enrolling for the CSM classroom training?</a> </h4>
                             </div>
                             <div id="faq-1-7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-heading-1-7">
@@ -2650,7 +1310,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="faq-heading-1-8">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="agile-management/csm-certification-training#faq-1-8" aria-expanded="false" aria-controls="faq-1-8">Do you provide transportation
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="#faq-1-8" aria-expanded="false" aria-controls="faq-1-8">Do you provide transportation
                                         and refreshments with the Agile Scrum Master training?</a> </h4>
                             </div>
                             <div id="faq-1-8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-heading-1-8">
@@ -2664,7 +1324,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="faq-heading-1-9">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="agile-management/csm-certification-training#faq-1-9" aria-expanded="false" aria-controls="faq-1-9">Do you provide any discount
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="#faq-1-9" aria-expanded="false" aria-controls="faq-1-9">Do you provide any discount
                                         for CSM certification training programs?</a> </h4>
                             </div>
                             <div id="faq-1-9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-heading-1-9">
@@ -2680,7 +1340,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="faq-heading-1-10">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="agile-management/csm-certification-training#faq-1-10" aria-expanded="false" aria-controls="faq-1-10">What payment options are
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="#faq-1-10" aria-expanded="false" aria-controls="faq-1-10">What payment options are
                                         available?</a> </h4>
                             </div>
                             <div id="faq-1-10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-heading-1-10">
@@ -2697,7 +1357,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="faq-heading-1-11">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="agile-management/csm-certification-training#faq-1-11" aria-expanded="false" aria-controls="faq-1-11">If I cancel the enrolment,
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="#faq-1-11" aria-expanded="false" aria-controls="faq-1-11">If I cancel the enrolment,
                                         will I get a refund?</a> </h4>
                             </div>
                             <div id="faq-1-11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-heading-1-11">
@@ -2714,7 +1374,7 @@
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="faq-heading-1-12">
-                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="agile-management/csm-certification-training#faq-1-12" aria-expanded="false" aria-controls="faq-1-12">I’d like to learn more about
+                                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".faq-accordion-1" href="#faq-1-12" aria-expanded="false" aria-controls="faq-1-12">I’d like to learn more about
                                         this CSM certification training program. Whom should I contact?</a> </h4>
                             </div>
                             <div id="faq-1-12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-heading-1-12">
@@ -2741,7 +1401,7 @@
                         <div class="panel-group accordion seo-content-accordion-1" role="tablist" aria-multiselectable="true">
                             <div class="panel panel-default">
                                 <div class="panel-heading active" role="tab" id="seo-content-heading-1-1">
-                                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-1" aria-expanded="true" aria-controls="seo-content-1-1">Who is a Certified
+                                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-1" aria-expanded="true" aria-controls="seo-content-1-1">Who is a Certified
                                             ScrumMaster®?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="seo-content-heading-1-1">
@@ -2758,7 +1418,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-2">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-2" aria-expanded="false" aria-controls="seo-content-1-2">What are the roles
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-2" aria-expanded="false" aria-controls="seo-content-1-2">What are the roles
                                             and responsibilities of a Certified ScrumMaster®?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-2">
@@ -2788,7 +1448,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-3">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-3" aria-expanded="false" aria-controls="seo-content-1-3">What are the most
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-3" aria-expanded="false" aria-controls="seo-content-1-3">What are the most
                                             important skills that a Scrum Master should have?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-3">
@@ -2816,7 +1476,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-4">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-4" aria-expanded="false" aria-controls="seo-content-1-4">How does
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-4" aria-expanded="false" aria-controls="seo-content-1-4">How does
                                             ScrumMaster certification come into play?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-4">
@@ -2834,7 +1494,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-5">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-5" aria-expanded="false" aria-controls="seo-content-1-5">What are the
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-5" aria-expanded="false" aria-controls="seo-content-1-5">What are the
                                             different Scrum Master Certifications available?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-5">
@@ -2885,7 +1545,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-6">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-6" aria-expanded="false" aria-controls="seo-content-1-6">How is Scrum
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-6" aria-expanded="false" aria-controls="seo-content-1-6">How is Scrum
                                             Alliance different from other certifying bodies?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-6">
@@ -2910,7 +1570,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-7">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-7" aria-expanded="false" aria-controls="seo-content-1-7">What does it mean
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-7" aria-expanded="false" aria-controls="seo-content-1-7">What does it mean
                                             to have a Certified ScrumMaster® (CSM) designation?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-7">
@@ -2927,7 +1587,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-8">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-8" aria-expanded="false" aria-controls="seo-content-1-8">Does Scrum
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-8" aria-expanded="false" aria-controls="seo-content-1-8">Does Scrum
                                             Alliance offer an online/virtual CSM course?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-8">
@@ -2940,7 +1600,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-9">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-9" aria-expanded="false" aria-controls="seo-content-1-9">What are the
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-9" aria-expanded="false" aria-controls="seo-content-1-9">What are the
                                             benefits of "2-year membership with Scrum Alliance"?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-9">
@@ -2956,7 +1616,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-10">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-10" aria-expanded="false" aria-controls="seo-content-1-10">How does the CSM
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-10" aria-expanded="false" aria-controls="seo-content-1-10">How does the CSM
                                             course help an individual/professional?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-10">
@@ -2974,7 +1634,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-11">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-11" aria-expanded="false" aria-controls="seo-content-1-11">Will new job
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-11" aria-expanded="false" aria-controls="seo-content-1-11">Will new job
                                             placement opportunities available to me after Scrum Master training?</a>
                                     </h4>
                                 </div>
@@ -2992,7 +1652,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-12">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-12" aria-expanded="false" aria-controls="seo-content-1-12">Top companies
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-12" aria-expanded="false" aria-controls="seo-content-1-12">Top companies
                                             that have hired CSM certified professionals globally</a> </h4>
                                 </div>
                                 <div id="seo-content-1-12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-12">
@@ -3047,7 +1707,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-13">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-13" aria-expanded="false" aria-controls="seo-content-1-13">Best Scrum tools
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-13" aria-expanded="false" aria-controls="seo-content-1-13">Best Scrum tools
                                             to enhance your team’s productivity</a> </h4>
                                 </div>
                                 <div id="seo-content-1-13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-13">
@@ -3360,7 +2020,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-14">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-14" aria-expanded="false" aria-controls="seo-content-1-14">The different
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-14" aria-expanded="false" aria-controls="seo-content-1-14">The different
                                             Certifications you can gain in Scrum</a> </h4>
                                 </div>
                                 <div id="seo-content-1-14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-14">
@@ -3385,7 +2045,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-15">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-15" aria-expanded="false" aria-controls="seo-content-1-15">What next after
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-15" aria-expanded="false" aria-controls="seo-content-1-15">What next after
                                             working as a Certified ScrumMaster® for 1 year?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-15">
@@ -3401,7 +2061,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-16">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-16" aria-expanded="false" aria-controls="seo-content-1-16">What is the
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-16" aria-expanded="false" aria-controls="seo-content-1-16">What is the
                                             relation between Agile &amp; Scrum?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-16">
@@ -3433,7 +2093,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-17">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-17" aria-expanded="false" aria-controls="seo-content-1-17">What is the cost
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-17" aria-expanded="false" aria-controls="seo-content-1-17">What is the cost
                                             of the Certified ScrumMaster® (CSM®) certification?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-17">
@@ -3448,7 +2108,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-18">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-18" aria-expanded="false" aria-controls="seo-content-1-18">What are the
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-18" aria-expanded="false" aria-controls="seo-content-1-18">What are the
                                             major differences between CSM &amp; PSM Certification?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-18">
@@ -3504,7 +2164,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-19">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-19" aria-expanded="false" aria-controls="seo-content-1-19">How to get CSM
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-19" aria-expanded="false" aria-controls="seo-content-1-19">How to get CSM
                                             certification?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-19">
@@ -3529,7 +2189,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-20">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-20" aria-expanded="false" aria-controls="seo-content-1-20">What are the
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-20" aria-expanded="false" aria-controls="seo-content-1-20">What are the
                                             benefits of CSM Certification?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-20" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-20">
@@ -3553,7 +2213,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-21">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-21" aria-expanded="false" aria-controls="seo-content-1-21">How to apply for
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-21" aria-expanded="false" aria-controls="seo-content-1-21">How to apply for
                                             CSM certification?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-21">
@@ -3574,7 +2234,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-22">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-22" aria-expanded="false" aria-controls="seo-content-1-22">How to apply for
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-22" aria-expanded="false" aria-controls="seo-content-1-22">How to apply for
                                             the CSM Exam?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-22">
@@ -3603,7 +2263,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-23">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-23" aria-expanded="false" aria-controls="seo-content-1-23">What is the
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-23" aria-expanded="false" aria-controls="seo-content-1-23">What is the
                                             validity of CSM Certification?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-23" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-23">
@@ -3620,7 +2280,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-24">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-24" aria-expanded="false" aria-controls="seo-content-1-24">How to prepare
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-24" aria-expanded="false" aria-controls="seo-content-1-24">How to prepare
                                             for CSM certification?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-24" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-24">
@@ -3638,7 +2298,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-25">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-25" aria-expanded="false" aria-controls="seo-content-1-25">What's next after
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-25" aria-expanded="false" aria-controls="seo-content-1-25">What's next after
                                             CSM certification?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-25" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-25">
@@ -3663,7 +2323,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-1-26">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="agile-management/csm-certification-training#seo-content-1-26" aria-expanded="false" aria-controls="seo-content-1-26">What is a Scrum
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-1" href="#seo-content-1-26" aria-expanded="false" aria-controls="seo-content-1-26">What is a Scrum
                                             Master?</a> </h4>
                                 </div>
                                 <div id="seo-content-1-26" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-1-26">
@@ -3682,7 +2342,7 @@
                         <div class="panel-group accordion seo-content-accordion-2" role="tablist" aria-multiselectable="true">
                             <div class="panel panel-default">
                                 <div class="panel-heading active" role="tab" id="seo-content-heading-2-1">
-                                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="agile-management/csm-certification-training#seo-content-2-1" aria-expanded="false" aria-controls="seo-content-2-1">Complete CSM
+                                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="#seo-content-2-1" aria-expanded="false" aria-controls="seo-content-2-1">Complete CSM
                                             course details that you should know</a> </h4>
                                 </div>
                                 <div id="seo-content-2-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="seo-content-heading-2-1">
@@ -3734,7 +2394,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-2-2">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="agile-management/csm-certification-training#seo-content-2-2" aria-expanded="false" aria-controls="seo-content-2-2">Is the CSM
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="#seo-content-2-2" aria-expanded="false" aria-controls="seo-content-2-2">Is the CSM
                                             training a basic level under Agile management?</a> </h4>
                                 </div>
                                 <div id="seo-content-2-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-2-2">
@@ -3748,7 +2408,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-2-3">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="agile-management/csm-certification-training#seo-content-2-3" aria-expanded="false" aria-controls="seo-content-2-3">What are the
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="#seo-content-2-3" aria-expanded="false" aria-controls="seo-content-2-3">What are the
                                             prerequisites to attend the CSM certification training?</a> </h4>
                                 </div>
                                 <div id="seo-content-2-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-2-3">
@@ -3763,7 +2423,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-2-4">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="agile-management/csm-certification-training#seo-content-2-4" aria-expanded="false" aria-controls="seo-content-2-4">What education
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="#seo-content-2-4" aria-expanded="false" aria-controls="seo-content-2-4">What education
                                             background should I have in order to become a Scrum Master?</a> </h4>
                                 </div>
                                 <div id="seo-content-2-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-2-4">
@@ -3778,7 +2438,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-2-5">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="agile-management/csm-certification-training#seo-content-2-5" aria-expanded="false" aria-controls="seo-content-2-5">Who should take
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="#seo-content-2-5" aria-expanded="false" aria-controls="seo-content-2-5">Who should take
                                             this Scrum Alliance CSM training course?</a> </h4>
                                 </div>
                                 <div id="seo-content-2-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-2-5">
@@ -3799,7 +2459,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-2-6">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="agile-management/csm-certification-training#seo-content-2-6" aria-expanded="false" aria-controls="seo-content-2-6">Who are the
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="#seo-content-2-6" aria-expanded="false" aria-controls="seo-content-2-6">Who are the
                                             instructors/trainers for your CSM certification training?</a> </h4>
                                 </div>
                                 <div id="seo-content-2-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-2-6">
@@ -3827,7 +2487,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-2-7">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="agile-management/csm-certification-training#seo-content-2-7" aria-expanded="false" aria-controls="seo-content-2-7">Can the CSM online
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="#seo-content-2-7" aria-expanded="false" aria-controls="seo-content-2-7">Can the CSM online
                                             test be taken without undergoing the Certified ScrumMaster®
                                             training?</a> </h4>
                                 </div>
@@ -3844,7 +2504,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-2-8">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="agile-management/csm-certification-training#seo-content-2-8" aria-expanded="false" aria-controls="seo-content-2-8">Do I need
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="#seo-content-2-8" aria-expanded="false" aria-controls="seo-content-2-8">Do I need
                                             membership of Scrum Alliance to attend training for this
                                             certification?</a> </h4>
                                 </div>
@@ -3859,7 +2519,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-2-9">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="agile-management/csm-certification-training#seo-content-2-9" aria-expanded="false" aria-controls="seo-content-2-9">Is your 2 days of
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="#seo-content-2-9" aria-expanded="false" aria-controls="seo-content-2-9">Is your 2 days of
                                             training enough to clear the Scrum Master certification exam?</a> </h4>
                                 </div>
                                 <div id="seo-content-2-9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-2-9">
@@ -3876,7 +2536,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-2-10">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="agile-management/csm-certification-training#seo-content-2-10" aria-expanded="false" aria-controls="seo-content-2-10">After CSM
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="#seo-content-2-10" aria-expanded="false" aria-controls="seo-content-2-10">After CSM
                                             training within how many days do I need to take the certification?</a>
                                     </h4>
                                 </div>
@@ -3893,7 +2553,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-2-11">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="agile-management/csm-certification-training#seo-content-2-11" aria-expanded="false" aria-controls="seo-content-2-11">Are the Certified
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-2" href="#seo-content-2-11" aria-expanded="false" aria-controls="seo-content-2-11">Are the Certified
                                             ScrumMaster® training materials effective in preparing for the CSM
                                             exam?</a> </h4>
                                 </div>
@@ -3915,7 +2575,7 @@
                         <div class="panel-group accordion seo-content-accordion-3" role="tablist" aria-multiselectable="true">
                             <div class="panel panel-default">
                                 <div class="panel-heading active" role="tab" id="seo-content-heading-3-1">
-                                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="agile-management/csm-certification-training#seo-content-3-1" aria-expanded="false" aria-controls="seo-content-3-1">What is the
+                                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="#seo-content-3-1" aria-expanded="false" aria-controls="seo-content-3-1">What is the
                                             difficulty level of the Certified ScrumMaster® exam?</a> </h4>
                                 </div>
                                 <div id="seo-content-3-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="seo-content-heading-3-1">
@@ -3934,7 +2594,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-3-2">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="agile-management/csm-certification-training#seo-content-3-2" aria-expanded="false" aria-controls="seo-content-3-2">What is the Scrum
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="#seo-content-3-2" aria-expanded="false" aria-controls="seo-content-3-2">What is the Scrum
                                             Master certification exam pattern and passing score?</a> </h4>
                                 </div>
                                 <div id="seo-content-3-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-3-2">
@@ -3955,7 +2615,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-3-3">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="agile-management/csm-certification-training#seo-content-3-3" aria-expanded="false" aria-controls="seo-content-3-3">How much does the
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="#seo-content-3-3" aria-expanded="false" aria-controls="seo-content-3-3">How much does the
                                             Certified Scrum Master certification exam cost?</a> </h4>
                                 </div>
                                 <div id="seo-content-3-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-3-3">
@@ -3969,7 +2629,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-3-4">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="agile-management/csm-certification-training#seo-content-3-4" aria-expanded="false" aria-controls="seo-content-3-4">Can I retake the
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="#seo-content-3-4" aria-expanded="false" aria-controls="seo-content-3-4">Can I retake the
                                             Scrum Master certification test if I fail?</a> </h4>
                                 </div>
                                 <div id="seo-content-3-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-3-4">
@@ -3987,7 +2647,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-3-5">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="agile-management/csm-certification-training#seo-content-3-5" aria-expanded="false" aria-controls="seo-content-3-5">What is the "CSM
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="#seo-content-3-5" aria-expanded="false" aria-controls="seo-content-3-5">What is the "CSM
                                             accreditation body"? What is its exam fee refund policy?</a> </h4>
                                 </div>
                                 <div id="seo-content-3-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-3-5">
@@ -4001,7 +2661,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-3-6">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="agile-management/csm-certification-training#seo-content-3-6" aria-expanded="false" aria-controls="seo-content-3-6">Is it possible for
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="#seo-content-3-6" aria-expanded="false" aria-controls="seo-content-3-6">Is it possible for
                                             me to take a sample test to get a feeling of what the real test would be
                                             like?</a> </h4>
                                 </div>
@@ -4020,7 +2680,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-3-7">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="agile-management/csm-certification-training#seo-content-3-7" aria-expanded="false" aria-controls="seo-content-3-7">How to take online
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="#seo-content-3-7" aria-expanded="false" aria-controls="seo-content-3-7">How to take online
                                             CSM® exam?</a> </h4>
                                 </div>
                                 <div id="seo-content-3-7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-3-7">
@@ -4038,7 +2698,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-3-8">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="agile-management/csm-certification-training#seo-content-3-8" aria-expanded="false" aria-controls="seo-content-3-8">How will the
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="#seo-content-3-8" aria-expanded="false" aria-controls="seo-content-3-8">How will the
                                             attendees take the CSM test?</a> </h4>
                                 </div>
                                 <div id="seo-content-3-8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-3-8">
@@ -4053,7 +2713,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-3-9">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="agile-management/csm-certification-training#seo-content-3-9" aria-expanded="false" aria-controls="seo-content-3-9">Will I be able to
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="#seo-content-3-9" aria-expanded="false" aria-controls="seo-content-3-9">Will I be able to
                                             pause the test for some time and return to it later?</a> </h4>
                                 </div>
                                 <div id="seo-content-3-9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-3-9">
@@ -4071,7 +2731,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-3-10">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="agile-management/csm-certification-training#seo-content-3-10" aria-expanded="false" aria-controls="seo-content-3-10">How long does it
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="#seo-content-3-10" aria-expanded="false" aria-controls="seo-content-3-10">How long does it
                                             take to receive CSM exam results?</a> </h4>
                                 </div>
                                 <div id="seo-content-3-10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-3-10">
@@ -4085,7 +2745,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-3-11">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="agile-management/csm-certification-training#seo-content-3-11" aria-expanded="false" aria-controls="seo-content-3-11">Why has the CSM
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="#seo-content-3-11" aria-expanded="false" aria-controls="seo-content-3-11">Why has the CSM
                                             test been updated?</a> </h4>
                                 </div>
                                 <div id="seo-content-3-11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-3-11">
@@ -4105,7 +2765,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-3-12">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="agile-management/csm-certification-training#seo-content-3-12" aria-expanded="false" aria-controls="seo-content-3-12">If I have
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="#seo-content-3-12" aria-expanded="false" aria-controls="seo-content-3-12">If I have
                                             undertaken the CSM certification course in November or December 2018,
                                             will I receive the ‘old’ test or ‘new’ test?</a> </h4>
                                 </div>
@@ -4125,7 +2785,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-3-13">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="agile-management/csm-certification-training#seo-content-3-13" aria-expanded="false" aria-controls="seo-content-3-13">What is the test
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="#seo-content-3-13" aria-expanded="false" aria-controls="seo-content-3-13">What is the test
                                             blueprint? Does it match with the LOs?</a> </h4>
                                 </div>
                                 <div id="seo-content-3-13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-3-13">
@@ -4145,7 +2805,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-3-14">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="agile-management/csm-certification-training#seo-content-3-14" aria-expanded="false" aria-controls="seo-content-3-14">Can the CSM® test
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-3" href="#seo-content-3-14" aria-expanded="false" aria-controls="seo-content-3-14">Can the CSM® test
                                             be re-taken to score better marks if I have fared poorly in my previous
                                             attempt?</a> </h4>
                                 </div>
@@ -4167,7 +2827,7 @@
                         <div class="panel-group accordion seo-content-accordion-4" role="tablist" aria-multiselectable="true">
                             <div class="panel panel-default">
                                 <div class="panel-heading active" role="tab" id="seo-content-heading-4-1">
-                                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="agile-management/csm-certification-training#seo-content-4-1" aria-expanded="false" aria-controls="seo-content-4-1">What is Certified
+                                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="#seo-content-4-1" aria-expanded="false" aria-controls="seo-content-4-1">What is Certified
                                             ScrumMaster certification?</a> </h4>
                                 </div>
                                 <div id="seo-content-4-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="seo-content-heading-4-1">
@@ -4185,7 +2845,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-4-2">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="agile-management/csm-certification-training#seo-content-4-2" aria-expanded="false" aria-controls="seo-content-4-2">What is the
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="#seo-content-4-2" aria-expanded="false" aria-controls="seo-content-4-2">What is the
                                             importance of a CSM certificate?</a> </h4>
                                 </div>
                                 <div id="seo-content-4-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-4-2">
@@ -4202,7 +2862,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-4-3">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="agile-management/csm-certification-training#seo-content-4-3" aria-expanded="false" aria-controls="seo-content-4-3">Why should I go
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="#seo-content-4-3" aria-expanded="false" aria-controls="seo-content-4-3">Why should I go
                                             for Scrum Master accredited certification?</a> </h4>
                                 </div>
                                 <div id="seo-content-4-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-4-3">
@@ -4218,7 +2878,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-4-4">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="agile-management/csm-certification-training#seo-content-4-4" aria-expanded="false" aria-controls="seo-content-4-4">Who offers the CSM
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="#seo-content-4-4" aria-expanded="false" aria-controls="seo-content-4-4">Who offers the CSM
                                             certification?</a> </h4>
                                 </div>
                                 <div id="seo-content-4-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-4-4">
@@ -4236,7 +2896,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-4-5">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="agile-management/csm-certification-training#seo-content-4-5" aria-expanded="false" aria-controls="seo-content-4-5">How long does it
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="#seo-content-4-5" aria-expanded="false" aria-controls="seo-content-4-5">How long does it
                                             take to get a CSM certification?</a> </h4>
                                 </div>
                                 <div id="seo-content-4-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-4-5">
@@ -4255,7 +2915,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-4-6">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="agile-management/csm-certification-training#seo-content-4-6" aria-expanded="false" aria-controls="seo-content-4-6">Is the ScrumMaster
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="#seo-content-4-6" aria-expanded="false" aria-controls="seo-content-4-6">Is the ScrumMaster
                                             certification worth it?</a> </h4>
                                 </div>
                                 <div id="seo-content-4-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-4-6">
@@ -4274,7 +2934,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-4-7">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="agile-management/csm-certification-training#seo-content-4-7" aria-expanded="false" aria-controls="seo-content-4-7">What is the
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="#seo-content-4-7" aria-expanded="false" aria-controls="seo-content-4-7">What is the
                                             average salary of a Certified ScrumMaster® Professional?</a> </h4>
                                 </div>
                                 <div id="seo-content-4-7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-4-7">
@@ -4289,7 +2949,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-4-8">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="agile-management/csm-certification-training#seo-content-4-8" aria-expanded="false" aria-controls="seo-content-4-8">What are the
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-4" href="#seo-content-4-8" aria-expanded="false" aria-controls="seo-content-4-8">What are the
                                             career benefits you gain along with the ScrumMaster certification?</a>
                                     </h4>
                                 </div>
@@ -4319,7 +2979,7 @@
                         <div class="panel-group accordion seo-content-accordion-5" role="tablist" aria-multiselectable="true">
                             <div class="panel panel-default">
                                 <div class="panel-heading active" role="tab" id="seo-content-heading-5-1">
-                                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent=".seo-content-accordion-5" href="agile-management/csm-certification-training#seo-content-5-1" aria-expanded="false" aria-controls="seo-content-5-1">What is the
+                                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent=".seo-content-accordion-5" href="#seo-content-5-1" aria-expanded="false" aria-controls="seo-content-5-1">What is the
                                             process to become a Certified ScrumMaster?</a> </h4>
                                 </div>
                                 <div id="seo-content-5-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="seo-content-heading-5-1">
@@ -4355,7 +3015,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-5-2">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-5" href="agile-management/csm-certification-training#seo-content-5-2" aria-expanded="false" aria-controls="seo-content-5-2">Why and how should
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-5" href="#seo-content-5-2" aria-expanded="false" aria-controls="seo-content-5-2">Why and how should
                                             I renew my certification?</a> </h4>
                                 </div>
                                 <div id="seo-content-5-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-5-2">
@@ -4391,7 +3051,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-5-3">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-5" href="agile-management/csm-certification-training#seo-content-5-3" aria-expanded="false" aria-controls="seo-content-5-3">How can we earn
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-5" href="#seo-content-5-3" aria-expanded="false" aria-controls="seo-content-5-3">How can we earn
                                             SEUs for certification renewal?</a> </h4>
                                 </div>
                                 <div id="seo-content-5-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-5-3">
@@ -4412,7 +3072,7 @@
                         <div class="panel-group accordion seo-content-accordion-6" role="tablist" aria-multiselectable="true">
                             <div class="panel panel-default">
                                 <div class="panel-heading active" role="tab" id="seo-content-heading-6-1">
-                                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent=".seo-content-accordion-6" href="agile-management/csm-certification-training#seo-content-6-1" aria-expanded="false" aria-controls="seo-content-6-1">What do you mean
+                                    <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent=".seo-content-accordion-6" href="#seo-content-6-1" aria-expanded="false" aria-controls="seo-content-6-1">What do you mean
                                             by PDUs and SEUs?</a> </h4>
                                 </div>
                                 <div id="seo-content-6-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="seo-content-heading-6-1">
@@ -4431,7 +3091,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-6-2">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-6" href="agile-management/csm-certification-training#seo-content-6-2" aria-expanded="false" aria-controls="seo-content-6-2">Where are PDUs and
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-6" href="#seo-content-6-2" aria-expanded="false" aria-controls="seo-content-6-2">Where are PDUs and
                                             SEUs applicable?</a> </h4>
                                 </div>
                                 <div id="seo-content-6-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-6-2">
@@ -4452,7 +3112,7 @@
                             </div>
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="seo-content-heading-6-3">
-                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-6" href="agile-management/csm-certification-training#seo-content-6-3" aria-expanded="false" aria-controls="seo-content-6-3">How many PDUs and
+                                    <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent=".seo-content-accordion-6" href="#seo-content-6-3" aria-expanded="false" aria-controls="seo-content-6-3">How many PDUs and
                                             SEUs will I be eligible for?</a> </h4>
                                 </div>
                                 <div id="seo-content-6-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="seo-content-heading-6-3">
@@ -4478,7 +3138,7 @@
                         <h2 class="section-heading"> Hear From Our Scrum Trainees </h2>
                     </div>
                     <div class="tab-content">
-                        <div class="tab-pane fade user-voice active in">
+                        <div class="tab-pane fade user-voice active show in">
                             <div class="testimonial-list" data-toggle="view-more-items">
                                 <div class="testimonial-thumb">
                                     <div class="media">
@@ -4641,147 +3301,6 @@
             </div>
         </div>
     </section>
-    <script type="application/ld+json">
-        [{
-            "@context": "http://schema.org/",
-            "@type": "Person",
-            "name": "Raj Kasturi  CST",
-            "sponsor": {
-                "@type": "Organization",
-                "name": "Knowledgehut",
-                "url": "https://www.knowledgehut.com/"
-            }
-        }, {
-            "@context": "http://schema.org/",
-            "@type": "Person",
-            "name": "Heitor De Sa Roriz Filho  CST",
-            "sponsor": {
-                "@type": "Organization",
-                "name": "Knowledgehut",
-                "url": "https://www.knowledgehut.com/"
-            }
-        }, {
-            "@context": "http://schema.org/",
-            "@type": "Person",
-            "name": "Michel Goldenberg  CST",
-            "sponsor": {
-                "@type": "Organization",
-                "name": "Knowledgehut",
-                "url": "https://www.knowledgehut.com/"
-            }
-        }, {
-            "@context": "http://schema.org/",
-            "@type": "Person",
-            "name": "Daniel James Gullo  CST",
-            "sponsor": {
-                "@type": "Organization",
-                "name": "Knowledgehut",
-                "url": "https://www.knowledgehut.com/"
-            }
-        }, {
-            "@context": "http://schema.org/",
-            "@type": "Person",
-            "name": "Taghi Paksima  CST",
-            "sponsor": {
-                "@type": "Organization",
-                "name": "Knowledgehut",
-                "url": "https://www.knowledgehut.com/"
-            }
-        }, {
-            "@context": "http://schema.org/",
-            "@type": "Person",
-            "name": "Kok Ewe Siew CST",
-            "sponsor": {
-                "@type": "Organization",
-                "name": "Knowledgehut",
-                "url": "https://www.knowledgehut.com/"
-            }
-        }]
-    </script>
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [{
-                "@type": "Question",
-                "name": "What does it mean to have a Certified ScrumMaster® (CSM) designation?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "<p>A Certified ScrumMaster® (CSM) training workshop is conducted by a Certified Scrum Trainer (CST) and teaches the Scrum terminology, practices, and principles that will enable the participant to act as a Scrum Master or Scrum team member. This credential is a first step on the path to a successful Agile career.</p>"
-                }
-            }, {
-                "@type": "Question",
-                "name": "Does Scrum Alliance offer an online/virtual CSM course?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "<p>Yes, there is an online/virtual course for CSM.&nbsp;</p>"
-                }
-            }, {
-                "@type": "Question",
-                "name": "How does the CSM course help an individual/professional?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "<p>According to Scrum Alliance, a Certified ScrumMaster® course helps increase the likelihood of a project’s overall success by applying Scrum principles and techniques in the right way. By understanding the values, practices, and applications, you can act as a ‘servant leader’ rising above and beyond an average project manager and helping your organization achieve meaningful goals</p>"
-                }
-            }, {
-                "@type": "Question",
-                "name": "Complete CSM course details that you should know",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "<p>Take a quick look at the complete details of the CSM certification course before you register:</p><p><br></p><table class=\"table table-bordered\"><tbody><tr><td><b>CSM Course</b></td><td><b>Details</b></td></tr><tr><td>CSM Certification Cost</td><td>INR 23999 in India, USD 995 in the US, CAD 1195 in Canada<br></td></tr><tr><td>Discount<br></td><td>Up to 20%<br></td></tr><tr><td>CSM Exam<br></td><td>1hr online test which comprises of 50 MCQs<br></td></tr><tr><td>CSM Exam Fee<br></td><td>Included in the certification cost<br></td></tr><tr><td>CSM Certification Validity<br></td><td>2 Year Validity<br></td></tr><tr><td>CSM Renewal Fees<br></td><td>$100<br></td></tr><tr><td>CSM Salary<br></td><td>$1,15,766 per year<br></td></tr></tbody></table>"
-                }
-            }, {
-                "@type": "Question",
-                "name": "What are the prerequisites to attend the CSM certification training?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "<p>There are no prerequisites for attending the course itself. A degree of course completion from our Certified Scrum Trainer makes you eligible for Scrum Alliance’s Online CSM Test.</p>"
-                }
-            }, {
-                "@type": "Question",
-                "name": "Who should take this Scrum Alliance CSM training course?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "<p>The following individuals can take this course:</p><ul><li>Anyone who would like to build a career as a Scrum Master</li><li>Teams transitioning to Scrum</li><li>Managers of Scrum teams</li><li>Scrum team members such as product owners and developers</li></ul><p>If you are already working as a Scrum Master, then taking this course helps to strengthen your Scrum knowledge and skills.</p>"
-                }
-            }, {
-                "@type": "Question",
-                "name": "How much does the Certified Scrum Master certification exam cost?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "<p>The Scrum Alliance CSM certification exam fee is included in the Certified ScrumMaster training cost.</p>"
-                }
-            }, {
-                "@type": "Question",
-                "name": "Why should I go for Scrum Master accredited certification?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "<p>Since Scrum is the most popular Agile framework for project management, Scrum Masters are in demand irrespective of the industry type. If you are working in a company where Agile is being widely used then CSM should be your first choice.</p>"
-                }
-            }, {
-                "@type": "Question",
-                "name": "How long does it take to get a CSM certification?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "<p>You will have to attend two days of CSM® training under a Certified Scrum Trainer (CST®). You need to take an exam to demonstrate your knowledge of Scrum and get certified. The exam comprises 50 multiple choice questions (MCQs) out of which you need to answer 37 questions correctly within an hour. This means that you need to score 74% in order to pass the exam. Once you pass the exam, you are declared as CSM® certified and you can download the certificate instantly.</p>"
-                }
-            }, {
-                "@type": "Question",
-                "name": "What is the average salary of a Certified ScrumMaster® Professional?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "<p>Scrum Master is a role and not a job title. The <a href=\"https://www.ziprecruiter.com/Salaries/Certified-Scrum-Master-Salary\" target=\"_blank\" rel=\"nofollow\">average salary of a Certified ScrumMaster®</a> is $100K per year which is really high when compared with other IT certifications.</p>"
-                }
-            }, {
-                "@type": "Question",
-                "name": "What is the process to become a Certified ScrumMaster?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "<p><strong>Step 1</strong><strong>:</strong>&nbsp;Take the 2-day CSM® course from the Global Registered Education Provider of Scrum Alliance.&nbsp;</p><p><strong>Step 2</strong><strong>:</strong>&nbsp;Scrum Alliance will send you a welcome email containing a link after successful completion of course.&nbsp;</p><p><strong>Step 3:</strong>&nbsp;Click on the link received from Scrum Alliance and activate your Scrum Alliance® certification account where you will be able to complete the CSM test.&nbsp;</p><p><strong>Step 4</strong><strong>:</strong>&nbsp;Take the&nbsp;1-hour&nbsp;online CSM® test which comprises of 50 MCQs by using those credentials.&nbsp;</p><p><strong>Step 5:&nbsp;</strong>: After successful completion of the course you can take the exam, the passing score for which is 74%.</p><p><strong>Step 6:</strong>&nbsp;Once the test is completed with the minimum passing score, you will be requested to accept a license agreement.&nbsp;</p><p><strong>Step 7:</strong>&nbsp;After accepting it, you will receive Certified&nbsp;ScrumMaster® (CSM®) designation from Scrum Alliance and a 2-year membership with Scrum Alliance as well.&nbsp;</p><p>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</p><p><strong>Step 8:</strong>&nbsp;If your certification has expired then you need to renew it. It must be renewed once in two years.</p>"
-                }
-            }]
-        }
-    </script>
     <section class="more-questions">
         <div class="container">
             <div class="row">
